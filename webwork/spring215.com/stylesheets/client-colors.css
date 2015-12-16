@@ -1,0 +1,197 @@
+/* Client Facing Color Styles */
+/* ====== Color Variables ====== */
+/* For Red Backgrounds, Links */
+/* For Footer Background */
+/* For Header text, bolded text */
+/* For body paragraph text */
+/* For link buttons with on colored backgrounds */
+/* For text with color backgrounds text */
+/* HEADER COLOR */
+/* line 28, ../scss/client-colors.scss */
+.top {
+  background: #ee3c2d;
+  color: white;
+}
+/* line 33, ../scss/client-colors.scss */
+.top a {
+  color: white;
+}
+
+/* line 44, ../scss/client-colors.scss */
+.middle h2 {
+  background: #ee3c2d;
+  color: white;
+}
+/* line 51, ../scss/client-colors.scss */
+.middle h2 span a {
+  background: white;
+  color: #ee3c2d;
+}
+/* line 59, ../scss/client-colors.scss */
+.middle .section-body {
+  background: #dddddd;
+}
+/* line 64, ../scss/client-colors.scss */
+.middle h3 {
+  color: #ee3c2d;
+}
+/* line 69, ../scss/client-colors.scss */
+.middle .form-button {
+  background: #ee3c2d;
+  color: #fff;
+}
+/* line 75, ../scss/client-colors.scss */
+.middle p {
+  color: #777777;
+}
+/* line 82, ../scss/client-colors.scss */
+.middle .help-content h2 {
+  color: #666666;
+  background: none;
+}
+/* line 88, ../scss/client-colors.scss */
+.middle .help-content p {
+  color: #777777;
+}
+/* line 93, ../scss/client-colors.scss */
+.middle .help-content a {
+  color: #ee3c2d;
+}
+/* line 99, ../scss/client-colors.scss */
+.middle .profile-section {
+  background: #666666;
+}
+/* line 106, ../scss/client-colors.scss */
+.middle .profile-section .input-buttons span {
+  color: #777777;
+}
+/* line 112, ../scss/client-colors.scss */
+.middle .profile-section .edit-clients-button {
+  color: #ee3c2d;
+}
+/* line 117, ../scss/client-colors.scss */
+.middle .profile-section p {
+  color: #dddddd;
+}
+/* line 122, ../scss/client-colors.scss */
+.middle .profile-section h3 {
+  color: white;
+}
+/* line 127, ../scss/client-colors.scss */
+.middle .profile-section .profile-section-item {
+  background: #dddddd;
+}
+/* line 131, ../scss/client-colors.scss */
+.middle .profile-section .profile-section-item h4 {
+  color: #666666;
+}
+/* line 136, ../scss/client-colors.scss */
+.middle .profile-section .profile-section-item a {
+  color: #ee3c2d;
+}
+/* line 141, ../scss/client-colors.scss */
+.middle .profile-section .profile-section-item span {
+  color: #666666;
+}
+/* line 146, ../scss/client-colors.scss */
+.middle .profile-section .profile-section-item .approved-button {
+  color: white;
+  background: #22b63c;
+  border-radius: .25em;
+}
+/* line 154, ../scss/client-colors.scss */
+.middle .profile-section .profile-section-item .not-approved-button {
+  color: white;
+  background: #777777;
+  border-radius: .25em;
+}
+/* line 164, ../scss/client-colors.scss */
+.middle .profile-section .profile-section-item hr {
+  color: #dddddd;
+}
+/* line 170, ../scss/client-colors.scss */
+.middle .profile-section .upload-project-file {
+  background: white;
+  padding: 1em;
+}
+/* line 174, ../scss/client-colors.scss */
+.middle .profile-section .upload-project-file p {
+  color: #ee3c2d;
+}
+/* line 183, ../scss/client-colors.scss */
+.middle .profile-section .document-name a {
+  background: #ee3c2d;
+  color: white;
+}
+/* line 189, ../scss/client-colors.scss */
+.middle .profile-section .document-name a:hover {
+  color: #dddddd;
+}
+/* line 195, ../scss/client-colors.scss */
+.middle .profile-section #expand-button {
+  background: #ee3c2d;
+  color: #ffffff;
+}
+/* line 206, ../scss/client-colors.scss */
+.middle .archived-section .archived-titles ul {
+  color: #666666;
+}
+/* line 212, ../scss/client-colors.scss */
+.middle .archived-section a {
+  color: #ee3c2d;
+}
+
+/* line 219, ../scss/client-colors.scss */
+.bottom {
+  background: #333333;
+}
+/* line 224, ../scss/client-colors.scss */
+.bottom h4 {
+  color: #ee3c2d;
+}
+/* line 229, ../scss/client-colors.scss */
+.bottom a {
+  color: #dddddd;
+}
+/* line 234, ../scss/client-colors.scss */
+.bottom a:hover {
+  text-decoration: underline;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* All Mobile Sizes (devices and browser) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 252, ../scss/client-colors.scss */
+  body {
+    background: #dddddd;
+  }
+
+  /* line 259, ../scss/client-colors.scss */
+  .middle h2 {
+    background: #dddddd;
+    color: #666666;
+  }
+  /* line 266, ../scss/client-colors.scss */
+  .middle .profile-section .profile-section-item {
+    background: white;
+  }
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  /* line 277, ../scss/client-colors.scss */
+  body {
+    background: #dddddd;
+  }
+
+  /* line 284, ../scss/client-colors.scss */
+  .middle h2 {
+    background: #dddddd;
+    color: #666666;
+  }
+  /* line 291, ../scss/client-colors.scss */
+  .middle .profile-section .profile-section-item {
+    background: white;
+  }
+}

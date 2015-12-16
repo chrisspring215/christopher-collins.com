@@ -1,0 +1,398 @@
+$color: #C4351D;
+$dark: #333;
+
+$main: 'Lato', sans-serif;
+
+body
+{
+	background: #000;
+}
+
+body, h1, h2, h3, h4, h5 ,h6, p, ul, li, a
+{
+	font-family: $main;
+}
+
+h1
+{
+	color: $color;
+}
+
+h2
+{
+	color: $color;
+	font-variant: small-caps;
+	font-weight: 300;
+}
+
+h3
+{
+	color: $color + 125;
+	font-variant: small-caps;
+	font-weight: 300;
+	font-size: 1.25em;
+	font-style: italic;
+}
+
+.home-page
+{
+
+	background: url(../img/tapas.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	 background-size: cover;
+ 	 padding-top: 25%;
+ 	 background-color: #000;
+
+	a
+	{
+		color: #222;
+		background: $color;
+		padding:.5em 1em;
+		font-variant: small-caps;
+		border: 3px solid #222;
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+
+	.logo
+	{
+		border: 3px solid $color;
+		padding: 1em;
+		background: #222;
+	}
+}
+
+.menu-page-header-nav
+{
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	border-bottom: .1em solid #222;
+
+	nav
+	{
+		background: #111;
+		height: 3em;
+		padding-right: 1em;
+
+		a
+		{
+			display: inline-block;
+			background: #111;
+			font-size: 1.25em;
+			padding: .25em .35em;
+			margin-top: .2em;
+			color: $color + 125;
+			font-variant: small-caps;
+		}
+
+		.active
+			{
+				color: $color;
+				font-weight: 700;
+				border: 1px solid #000;
+			}
+	}
+}
+
+.side-nav
+{
+	position: fixed;
+	top: 3em;
+	z-index: 1;
+	background: #000;
+	height: 100%;
+	
+	padding-top: 1em;
+
+	h2
+	{
+		font-variant: small-caps;
+	}
+
+	ul
+	{
+		margin: 0;
+		list-style-type: none;
+		
+		li
+		{
+			border: 1px solid #000 + $color;
+			margin-bottom: 3px;
+
+			a
+			{
+				display: inline-block;
+				padding: .25em 0;
+				width: 100%;
+				font-size: 1.5em;
+				color: $color + 125;
+				font-variant: small-caps;
+			}
+
+			.active
+			{
+				color: #eee;
+				background-color: $color;
+				font-weight: 700;
+			}
+		}
+	}
+
+	.av-space
+	{	
+		img
+		{
+			border: 1px solid #222;
+			position: fixed;
+			bottom: 1em;
+		}
+	}
+
+	.remembered-selections-section
+	{
+		ul
+		{
+			position: fixed;
+			bottom: 1em;
+			width: 224px;
+			border: 1px solid #333;
+			padding: .5em;
+		}
+
+		li
+		{
+			border: none;
+			color: $color + 125;
+			font-variant: small-caps;
+			height: 3em;
+			font-size: 1em;
+			line-height: 1.2em;
+
+			span
+			{
+				color: #eee;
+				font-size: 1.25em;
+			}
+
+			.remembered
+			{
+				color: #eee;
+			}
+
+			button
+			{
+				padding: 0;
+				width: 25px;
+				height: 25px;
+				border-radius: 1em;
+				background-color: $color;
+				font-weight: bold;
+				font-size: .75em;
+				float: right;
+			}
+		}
+		hr
+		{
+			padding: 0;
+			margin: .25em 0 .5em 0;
+			border-color: #333;
+		}
+
+		.null
+		{
+			opacity: .25;
+		}
+
+		.remembered-section-header
+			{
+				color: $color;
+				font-variant: small-caps;
+				font-weight: 500;
+				font-size: 1.5em;
+				height: 1.5em;
+				border-bottom: none;
+			}
+	}
+}
+
+.menu-content-list
+{
+	position: relative;
+	margin-top: 3em;
+	background: #000;
+	z-index: 1;
+	padding: 1em 2em 0 2em;
+	border-left: .1em solid #222;
+	
+
+	.inpage-destination
+	{
+		padding-top: 3em;
+	}
+
+	.inpage-section-nav
+	{
+		dd
+		{
+			display: inline;
+
+			a
+			{
+				width: 19%;
+				display: inline-block;
+			color: $color + 125;
+			padding-top: .6em;
+			padding-bottom: .6em;
+			font-variant: small-caps;
+			border: 1px solid $color;
+			z-index: 1000;
+			background: #000;
+			margin-bottom: 3px;
+
+			}
+		}
+	}
+
+	ul
+	{
+		margin: 0;
+		list-style-type: none;
+		color: #eee;
+
+		li
+		{
+			padding-bottom: 3.5em;
+			font-weight: 300;
+			border-bottom: 1px solid #333;
+			margin-bottom: 1.5em;
+
+			.item
+			{
+				font-size: 1.75em;
+				line-height: .75em;
+			}
+
+			.price
+			{
+				font-size: 1em;
+			}
+
+			.desc
+			{
+				font-size: 1.16em;
+				color: #aaa;
+				line-height: 1.2em;
+			}
+
+			.interaction-options
+			{
+				display: block;
+				padding-top: .5em;
+				float: right;
+
+				a
+				{
+
+					border: 1px solid $color;
+					color: $color + 125;
+
+					padding: .3em .6em .4em .6em;
+					font-weight: 500;
+					font-variant: small-caps;
+					font-size: 1.16em;
+				}
+
+				.remembered
+				{
+					border: 1px solid $color;
+					color: #000;
+					background-color: $color
+				}
+			}
+		}
+
+		.promo
+		{
+			padding-bottom: 1.5em;
+			img
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+
+.item-content
+{
+	position: relative;
+	margin-top: 3em;
+	z-index: 1;
+	padding: 1em 2em 0 2em;
+	border-left: .1em solid #222;
+	font-weight: 300;
+
+	img
+	{
+		border: 1px solid $dark;
+		margin-bottom: 1em;
+	}
+
+	.item-name
+	{
+		color: #fff;
+		font-size: 1.75em;
+
+		.price
+		{
+			font-size: .75em;
+		}
+	}
+
+	.price
+	{
+		font-size: 1em;
+		color: #fff;
+	}
+
+	.description, .ingredients, .dietary-info, .nutritional
+	{
+		font-size: 1.16em;
+		color: #aaa;
+		line-height: 1.2em;
+		margin-bottom: .75em;
+
+		h3
+		{
+			margin-bottom: 0;
+		}
+
+	}
+
+	.interaction-options
+	{
+		display: block;
+		padding-top: .5em;
+		float: right;
+
+		a
+		{
+		border: 1px solid $color;
+		color: $color + 125;
+
+		padding: .3em .6em .4em .6em;
+		font-weight: 500;
+		font-variant: small-caps;
+		font-size: 1.16em;
+		}
+
+		.remembered
+		{
+			border: 1px solid $color;
+			color: #000;
+			background-color: $color
+		}
+	}
+}

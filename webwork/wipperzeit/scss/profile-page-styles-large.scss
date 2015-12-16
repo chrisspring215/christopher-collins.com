@@ -1,0 +1,333 @@
+/* PROFILE PAGE STYLES LARGE =========================*/
+
+	.profile-page-content
+	{
+		font-family: $other;
+	}
+
+	.profile-page-header
+	{
+		background: $orange;
+		margin-bottom: 1em; 
+
+		h1
+		{
+			color: $white;
+			font-family: $header;
+			font-weight: normal;
+			margin-bottom: 0;
+		}
+	}
+
+	.profile-page-section-header
+	{
+		background: $dark;
+		margin-bottom: 1em;
+		border-left: 2px solid $white;
+		border-right: 2px solid $white;
+
+		h3
+		{
+			color: $white;
+			margin-bottom: 0;
+			font-family: $header;
+			font-weight: normal;
+		}
+	}
+
+	.profile-bio-section
+	{
+		h4
+		{
+			font-size: 1.25em;
+			font-weight: normal;
+			color: $dark;
+			margin-bottom: 0
+		}
+
+		p
+		{
+			font-size: 1em;
+			color: $orange;
+			margin-bottom: .75em;
+		}
+	}
+
+
+	.profile-activity-section
+	{
+		.activity-selector
+		{
+			a
+			{
+				background: $blue;
+				color: $lightest;
+				text-align: center;
+				border-left: 2px solid $white;
+				border-right: 2px solid $white;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+
+			.active-activity-selector
+			{
+				background: $darker;
+				color: $orange;
+				margin-bottom: 2em;
+			}
+		}
+
+
+		.activity-desc
+		{
+			margin-bottom: 1em;
+		}
+
+		.profile-page-activity-item
+		{
+			border-top: 1px solid $white;
+			padding-top: 2em;
+			padding-bottom: 2.25em;
+			background: $lightest;
+
+			h4 /* Main title of a item */
+			{
+				margin-bottom: 0;
+			}
+			
+			h4>a
+			{
+				font-family: $header;
+				font-size: 1em;
+				font-weight: normal;
+				color: $blue;
+				margin-bottom: 0;
+			}
+
+			/* =================== */
+			/* PROJECT PAGE STYLES */
+			/* =================== */
+			.activity-item-projects-nav
+			{
+				a
+				{
+					color: $white;
+					font-size: 1em;
+					background: $med;
+					text-align: center;
+					padding-top: 5px;
+					padding-bottom: 5px;
+					border: 1px solid $lightest;
+				}
+			}
+
+			.byline
+			{
+				margin-bottom: 1em;
+
+				p
+				{
+					color: $dark;
+					font-size: 1em;
+				}
+
+				span
+				{
+					color: $orange;
+				}
+			}
+
+			p
+			{
+				font-size: 1.25em;
+				margin-bottom: .75em;
+			}
+
+			/* ======================= */
+			/* END PROJECT PAGE STYLES */
+			/* ======================= */
+
+			/* ==================== */
+			/* COMMENTS PAGE STYLES */
+			/* ==================== */
+			.comments-page-thread-topic
+			{
+				margin-bottom: 1em;
+				font-size: 1em;
+				font-weight: normal;
+				line-height: 1.1em;
+				font-style: italic;
+
+				a
+				{
+					color: $orange;
+				}
+			}
+
+			.comments-page-thread-topic:before, .comments-page-thread-topic:after
+			{
+				content: '\0022';
+				color: $orange;
+			}
+
+			.profile-page-comment-date
+			{
+				color: $orange;
+			}
+			.profile-page-comment-date:before
+			{
+				content: 'on: ';
+				color: $dark;
+			}
+
+			.user-comment
+			{	background: $light;
+				padding-top: 1em;
+				padding-bottom: 1em;
+				margin-bottom: 1em;
+				span
+				{
+					background: $lightest;
+					padding: .1em .22em;
+					font-size: .80em;
+				}
+				.comment-content
+				{	
+					color: $dark;
+					font-size: 1em;
+					margin-top: .5em;
+					font-style: italic;
+					padding-left: 1em;
+					padding-right: 1em;
+					margin-bottom: .5em;
+					
+				}
+
+				.view-full-comment-link
+				{	text-align: left;
+					color: $blue;
+					padding-left: 1em;
+					margin-bottom: 1em;
+				}
+				.comment-content:before
+				{
+					content: '\0022';
+				}
+
+				.comment-content:after
+				{
+					content: '\0022';
+				}
+				.comment-id
+				{
+					color: $dark;
+					margin-left: 1em;
+				}
+				.comment-id>a
+				{
+					margin-bottom: 1em;
+					color: $orange;
+				}
+				.comment-id:after
+				{
+					content: ' wrote:';
+				}
+			}
+
+			.activity-comment-nav-large
+			{
+				margin-left: 1em;
+				a
+				{
+					margin-right: .75em;
+				}
+			}
+			/* ======================== */
+			/* END COMMENTS PAGE STYLES */
+			/* ======================== */
+
+			/* ===================== */
+			/* FOLLOWING PAGE STYLES */
+			/* ===================== */
+
+			.following-item-byline
+			{
+				margin-bottom: 1em;
+
+				p
+				{
+					color: $dark;
+					font-size: 1em;
+				}
+
+				span>a
+				{
+					color: $orange;
+				}
+			}
+
+			.activity-item-following-nav
+			{
+				a
+				{
+					color: $white;
+					font-size: 1em;
+					background: $med;
+					text-align: center;
+					padding-top: 5px;
+					padding-bottom: 5px;
+					border: 1px solid $lightest;
+				}
+			}
+			/* ========================= */
+			/* END FOLLOWING PAGE STYLES */
+			/* ========================= */
+
+			/* ================== */
+			/* GROUPS PAGE STYLES */
+			/* ================== */
+			.profile-page-group-desc
+			{
+				font-weight: normal;
+				line-height: 1.3em;
+			}
+
+			.activity-group-nav-large
+			{
+				a
+				{
+					margin-right: .75em;
+				}
+			}
+			/* ====================== */
+			/* END GROUPS PAGE STYLES */
+			/* ====================== */
+
+
+
+
+
+
+			
+		}
+	}
+
+	.profile-page-contact-section
+	{
+
+		h4
+		{
+			font-size: 1.25em;
+			font-weight: normal;
+			color: $orange;
+			margin-bottom: 0
+		}
+
+		p
+		{
+			font-size: 1em;
+			color: $orange;
+			margin-bottom: .75em;
+
+		}
+	}

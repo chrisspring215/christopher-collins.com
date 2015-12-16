@@ -1,0 +1,502 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+/* #Site Styles
+================================================== */
+/* line 21, ../scss/layout.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ================================== */
+/* Add top bottom padding to sections */
+/* line 27, ../scss/layout.scss */
+.container {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+/* ================================== */
+/* Adds margin padding to elements inside containers */
+/* ================================================= */
+/* line 38, ../scss/layout.scss */
+.top-space {
+  padding-top: 1em;
+}
+
+/* line 43, ../scss/layout.scss */
+.bottom-space {
+  padding-bottom: 1em;
+}
+
+/* ================================================= */
+/* Manages image floats */
+/* ================================================= */
+/* line 53, ../scss/layout.scss */
+img.right {
+  float: right;
+  padding-left: 1em;
+}
+
+/* line 59, ../scss/layout.scss */
+img.left {
+  float: left;
+  padding-right: 1em;
+}
+
+/* ================================================= */
+/* ============== */
+/* Header Styles */
+/* ============== */
+/* line 71, ../scss/layout.scss */
+.row.top {
+  margin-top: -2em;
+  margin-bottom: -2em;
+}
+
+/* line 79, ../scss/layout.scss */
+header .logo {
+  width: 100%;
+  height: auto;
+}
+/* line 87, ../scss/layout.scss */
+header .social-links {
+  text-align: right;
+  margin-top: 0em;
+}
+/* line 92, ../scss/layout.scss */
+header .social-links a {
+  margin: 0 0 0 .75em;
+  text-decoration: none;
+}
+/* line 100, ../scss/layout.scss */
+header .client-login {
+  margin-top: 1.25em;
+  text-align: center;
+}
+/* line 106, ../scss/layout.scss */
+header .global-nav {
+  margin-top: 5em;
+  /* Needs to be adjusted for smaller screens */
+}
+/* line 110, ../scss/layout.scss */
+header .global-nav a {
+  text-align: center;
+  text-decoration: none;
+  padding-top: .4em;
+  padding-bottom: .4em;
+}
+
+/* ============== */
+/* Body Styles */
+/* ============== */
+/* line 129, ../scss/layout.scss */
+.red a {
+  text-align: center;
+  text-decoration: none;
+  padding: .2em 0;
+}
+
+/* line 139, ../scss/layout.scss */
+.gray h3 {
+  text-align: center;
+}
+/* line 144, ../scss/layout.scss */
+.gray ul {
+  text-align: center;
+}
+/* line 148, ../scss/layout.scss */
+.gray ul li {
+  display: inline;
+  margin: 0 5%;
+}
+/* line 155, ../scss/layout.scss */
+.gray img {
+  width: 100%;
+  margin: 1em 0 0 0;
+}
+
+/* line 163, ../scss/layout.scss */
+.call-to-action {
+  padding: 2em;
+}
+/* line 168, ../scss/layout.scss */
+.call-to-action a {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  float: right;
+}
+
+/* line 180, ../scss/layout.scss */
+.contact-page li {
+  margin: 0;
+}
+
+/* ============== */
+/* Footer Styles */
+/* ============== */
+/* line 193, ../scss/layout.scss */
+.darkgray h4, .darkgray ul {
+  text-align: center;
+}
+/* line 198, ../scss/layout.scss */
+.darkgray img {
+  width: 100%;
+}
+
+/* #Media Queries
+================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 214, ../scss/layout.scss */
+  .global-nav a {
+    margin-top: -1em;
+  }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  /* line 223, ../scss/layout.scss */
+  .mobile-inactive {
+    display: none;
+  }
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 232, ../scss/layout.scss */
+  img.left, img.right {
+    float: none;
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  /* line 241, ../scss/layout.scss */
+  .inactive {
+    display: none;
+  }
+
+  /* line 246, ../scss/layout.scss */
+  .client-login {
+    padding-top: 2em;
+  }
+
+  /* line 253, ../scss/layout.scss */
+  .client-login a {
+    height: 40px;
+    border-bottom: 2px solid #fff;
+    padding-top: .25em;
+  }
+
+  /* line 261, ../scss/layout.scss */
+  .global-nav a {
+    height: 40px;
+    border-bottom: 2px solid #fff;
+  }
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  /* line 271, ../scss/layout.scss */
+  .container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  /* line 277, ../scss/layout.scss */
+  .top {
+    padding-top: 1em;
+  }
+
+  /* line 282, ../scss/layout.scss */
+  img.left, img.right {
+    float: none;
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  /* line 292, ../scss/layout.scss */
+  .inactive {
+    display: none;
+    background: red;
+  }
+
+  /* line 299, ../scss/layout.scss */
+  .client-login {
+    padding-top: 2em;
+  }
+
+  /* line 306, ../scss/layout.scss */
+  .client-login a {
+    height: 40px;
+    border-bottom: 2px solid #fff;
+    padding-top: .5em;
+  }
+
+  /* line 314, ../scss/layout.scss */
+  .global-nav {
+    padding-bottom: 4em;
+  }
+
+  /* line 318, ../scss/layout.scss */
+  .global-nav a {
+    height: 40px;
+    border-bottom: 2px solid #fff;
+  }
+}
+/* #Font-Face
+================================================== */
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+/* line 7, ../scss/social_foundicons.scss */
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 17, ../scss/social_foundicons.scss */
+[class*="foundicon-"]:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+/* line 6, ../scss/_settings.scss */
+.foundicon-facebook:before {
+  content: "\f003";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-twitter:before {
+  content: "\f004";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-github:before {
+  content: "\f006";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-linkedin:before {
+  content: "\f008";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-google-plus:before {
+  content: "\f00d";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-youtube:before {
+  content: "\f00e";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-vimeo:before {
+  content: "\f00f";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-flickr:before {
+  content: "\f010";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-slideshare:before {
+  content: "\f011";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-skype:before {
+  content: "\f013";
+}
+
+/* general icons for IE7 */
+/* line 4, ../scss/social_foundicons_ie7.scss */
+[class*="foundicon-"] {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-thumb-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-thumb-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-rss {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-facebook {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-twitter {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-pinterest {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-github {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-path {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-linkedin {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-dribbble {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-stumble-upon {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-behance {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-reddit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-google-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-youtube {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-vimeo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-flickr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-slideshare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-picassa {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-skype {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-steam {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-instagram {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-foursquare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-delicious {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-torso {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-tumblr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-video-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-digg {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-wordpress {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}

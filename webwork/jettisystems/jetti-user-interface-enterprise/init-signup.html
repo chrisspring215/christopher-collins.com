@@ -1,0 +1,125 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RENAME PAGE</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/birthDays.js"></script>
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <nav class="global-nav top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="index.html">HOME</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li><a href="log-in.html">LOG IN</a></li>
+          <li><a class="active" href="init-signup.html">SIGN UP</a></li>
+          <li><a href="terms.html">TERMS</a></li>
+        </ul>
+      </section>
+    </nav>
+
+
+    <main>
+    <div class="row">
+      <div class="small-12 columns">
+        <h2>Sign Up</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-12 columns">
+        <div class="row">
+          <label class="small-12 columns">First Name
+            <input type="text" placeholder="i.e. Chris">
+          </label>
+          <label class="small-12 columns">Last Name
+            <input type="text" placeholder="i.e. Collins">
+          </label>
+
+          <label class="small-12 columns">Your Email
+            <input type="email" placeholder="i.e. you@somewhere.com">
+          </label>
+            <div class="small-12 columns">
+              <label>Your Birthday</label>
+            </div>
+            <div class="small-4 columns">
+                <select id="birthMonths" onchange="birthDays()">
+                  <option default="default">Month</option>
+                  <option>Jan</option>
+                  <option>Feb</option>
+                  <option>Mar</option>
+                  <option>Apr</option>
+                  <option>May</option>
+                  <option>Jun</option>
+                  <option>Jul</option>
+                  <option>Aug</option>
+                  <option>Sep</option>
+                  <option>Oct</option>
+                  <option>Nov</option>
+                  <option>Dec</option>
+                </select>
+              </div>
+              <div class="small-4 columns">
+                <select id="birthDays">
+                  <option default="default">Day</option>
+                </select>
+              </div>
+              <div class="small-4 columns">
+                <select>
+                  <option default="default">Year</option>
+                  <option>1980</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+          <label class="small-12 columns">Choose a Password
+            <input type="text" placeholder="itsAsecret2everybody">
+          </label>
+          <label class="small-12 columns">Verify Password
+            <input type="text" placeholder="enter it again the same way">
+          </label>
+      
+          <div class="small-12 columns">
+          <!--
+            <input type="submit" class="button small expand" value="SIGN ME UP">
+          -->
+            <a class="button expand" href="1st-time-check-in-page.html">SIGN ME UP</a>
+          </div>    
+
+        </div>
+      </div>
+    </div>
+  </main>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53107264-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>

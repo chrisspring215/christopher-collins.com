@@ -1,0 +1,192 @@
+/* Aggragator SMALL SCREEN Page Styles ===========================================*/
+	.aggregator-type-nav
+	{
+		margin-top: 1em;
+		a
+		{
+			padding: .4em .4em;
+			text-align: center;
+			font-size: .8em;
+		}
+
+		.active-aggregator-type-nav-button
+		{
+			color: $darker;
+			background: $orange;
+			border: 2px solid $white;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-radius: .45em;
+
+		}
+
+		.inactive-aggregator-type-nav-button
+		{
+			color: $lightest;
+			background: $blue;
+			margin-bottom: .2em;
+			border: 2px solid $white;
+			border-radius: .45em;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+	}
+
+	.aggregator-title-box
+	{
+		background: $orange;
+		padding-top: 1em;
+
+		h1
+		{
+			color: $darker;
+			font-family: $header;
+			margin-bottom: 0;
+			font-size: 1.75em;
+		}
+		
+		p
+		{
+			font-size: .9em;
+		}
+
+		.aggregator-description
+		{
+			color: $white;
+			margin-bottom: .5em;
+
+		}
+
+		a
+		{
+			margin-bottom: 1em;
+			background: $darker;
+			color: $blue;
+			padding: .2em .4em;
+			border-radius: .25em;
+			text-align: center;
+		}
+	}
+
+	.aggregator-project-sort
+	{
+		background: $lightest;
+		padding-top: .4em;
+		padding-bottom: .4em;
+		text-align: center;
+		font-size: .8em;
+
+		.project-sort-label
+		{
+			padding: .5em 0em;
+			border: 3px solid $lightest;
+		}
+
+		.active
+		{
+			background: $orange;
+			color: $white;
+			border-radius: .45em;
+		}
+
+		.project-sort-item
+		{
+			padding: .5em 0em;
+			border: 3px solid $lightest;
+		}
+
+		.inactive
+		{
+			background: $dark;
+			color: $lightest;
+			border-radius: .45em;
+		}
+
+	}
+
+	.project-list
+	{
+		.project-wrapper
+		{
+			font-family: $other;
+			border-top: 1px solid $lightest;
+			padding-top: 1.5em;
+			padding-bottom: 2.25em;
+			color: $dark;
+		}
+
+		.project-content
+		{
+			h2
+			{
+				margin: 0;
+				color: $dark;
+				font-family: $header;
+				font-weight: normal;
+				font-size: 1.5em;
+			}
+
+			p
+			{
+				margin-bottom: .75em;
+				font-size: .9em;
+			}
+
+			.byline
+			{
+				margin-bottom: 1em;
+				font-size: .9em;
+
+				span
+				{
+					color: $orange;
+				}
+
+				.submission-date>time
+				{
+					color: $dark;
+				}
+
+				.submission-date>time:after
+				{
+					content: '\00a0';
+				}
+				.submission-date>time:before
+				{
+					content: '\00a0';
+				}
+			}
+		}
+
+		.project-interaction-nav
+		{	
+			text-align: center;
+			margin-top: .5em;
+
+			a
+			{
+
+				padding: 5px 0;
+				font-size: .8em;
+				text-align: center;
+				background: $blue;
+				color: $lightest;
+				border: 2px solid $white;
+				margin-bottom: .25em;
+				border-radius: .45em;
+			}
+		}
+
+		.project-video
+		{
+		}
+	}
+
+	.load-more-projects-button
+	{
+		background: $blue;
+		color: $lightest;
+		font-size: 1em;
+		padding: .25em .5em;
+		border-radius: .25em;
+	}

@@ -1,0 +1,363 @@
+	.edit-project-page-content
+	{
+		font-family: $other;
+	}
+
+	.project-creation-explanation
+	{
+		background: $lightest;
+		padding: 1em;
+		margin-bottom: 1.5em;
+		border: 3px solid $blue;
+		border-radius: 3px;
+
+		h4
+		{
+			font-family: $header;
+			color: $orange;
+			font-weight: normal;
+		}
+
+		p
+		{
+			color: $dark;
+			font-style: italic;
+		}
+
+		button
+		{
+			border: none;
+		    background: $blue;
+		    color: $lightest;
+		    padding: .4em .6em;
+		    font-family: $other;
+		    font-weight: normal;
+		}
+	}
+	.lead
+	{
+		font-style: italic;
+	}
+
+	.edit-project-page-header
+	{
+		background: $orange;
+		margin-bottom: 1em; 
+
+		h1
+		{
+			color: $white;
+			font-family: $header;
+			font-weight: normal;
+			margin-bottom: 0;
+		}
+
+		small
+		{
+			color: $white;
+		}
+
+	}
+
+	.edit-project-section-selector
+	{
+
+			margin-bottom: 1em;
+			padding-bottom: 1em;
+
+		a
+		{
+			background: $blue;
+			padding: .3em .6em;
+			color: $lightest;
+		}
+
+		a:hover
+			{
+				transition: background 0.1s;
+				background: $orange;
+				color: $lightest;
+			}
+
+	}
+
+	.edit-project-page-section
+	{
+		padding-bottom: 2em;
+
+		.log-line-text
+		{
+		}
+
+		ul
+		{
+			font-size: 1.25em;
+			line-height: 1.3em;
+
+			li
+			{
+				margin-left: 1em;
+				margin-bottom: .75em;
+				font-size: .90em;
+			}
+		}
+
+		.edit-project-page-section-item-nav
+		{
+			line-height: 2em;
+			margin-bottom: 1em;
+			a
+			{
+				background: $lightest;
+				color: $blue;
+				padding: .2em .4em;
+			}
+
+			a:hover
+			{
+				background: $orange;
+				color: $lightest;
+			}
+		}
+
+		
+	}
+
+	.edit-project-page-section-header
+	{
+		background: $dark;
+		margin-bottom: 0em;
+		border-right: 2px solid $white;
+		margin-bottom: 1em;
+
+		h3
+		{
+			color: $white;
+			margin-bottom: 0;
+			font-family: $header;
+			font-weight: normal;
+		}
+	}
+
+	.edit-project-page-section-item
+	{ 	padding-top: .5em;
+		padding-bottom: 1em;
+		border: 3px solid $light;
+		border-radius: 3px;
+
+		.edit-deliverable-content-button
+		{
+			font-size: 1em;
+			margin-top: -.25em;
+			margin-bottom: 0;
+		}
+
+		a
+		{
+			color: $blue;
+		}
+
+		.edit-deliverable-content
+   		{
+
+   			textarea
+   			{
+   				font-size: 1.25em;
+   				width: 100%;
+   				height: 100%;
+   			}
+
+   			input
+   			{
+   				border: none;
+		        background: $blue;
+		        color: $lightest;
+		        padding: .2em .6em;
+   			}
+   		}
+	
+		.project-image-files
+		{
+			margin-top: 1em;
+
+			img
+			{
+				position: relative; 
+   				width: 100%; /* for IE 6 */
+   				opacity: .75;
+			}
+
+			img:hover
+			{
+				transition: opacity .5s;
+				-webkit-transition: opacity .5s; /* Safari */
+   				opacity: 1;
+			}
+
+			h5
+			{
+				position: absolute; 
+   				top: 0%;
+   				width: 100%;
+
+   				span
+   				{
+   					color: white; 
+					letter-spacing: -1px;  
+					background: rgb(0, 0, 0); /* fallback color */
+					background: rgba(62, 137, 190, 0.7);
+					padding: .2em .4em; 
+   				}
+   			}
+   		}
+
+   		.analytics
+   		{
+   			background: $lightest;
+   			padding: 1em;
+   			margin-bottom: 1.5em;
+   		}
+
+   		.edit-project-page-section-item-comments
+   		{
+   			h6
+   			{
+   				font-weight: normal;
+   				font-size: 1.25em;
+
+   			}
+
+   			a
+   			{
+   				font-style: italic;
+   				color: $blue;
+   				margin-right: .5em;
+   			}
+
+   			a:before, a:after
+   			{
+   				content: "\0022";
+   			}
+
+   			span
+   			{
+   				color: $orange;
+   				margin-right: .5em;
+   			}
+
+   			.comment-count
+   			{
+   				color: $dark;
+   			}
+   		}
+
+   		.edit-project-page-section-item-rank
+   		{
+   			margin-bottom: 1em;
+
+   			h6
+   			{
+   				font-weight: normal;
+   				font-size: 1.25em;
+
+   			}
+   		
+   			.title
+   			{
+   				color: $orange;
+   			}
+   			
+   			.change
+   			{
+   				color: green;
+   			}
+
+   		}
+
+   		.edit-project-page-section-item-discussion
+   		{
+   			margin-top: 1em;
+
+   			
+
+   			a
+   			{
+   				color: $blue;
+   			}
+   		}
+
+
+		.design-goals
+		{
+			color: $orange;
+		}
+			
+		h4
+		{
+			color: $orange;
+			font-family: $header;
+			font-weight: normal;
+			font-size: 2em;
+			margin-bottom: .25em;
+
+			small
+			{
+				font-size: .5em;
+			}
+		}
+
+	
+
+		p
+		{
+			margin-top: 0em;
+			margin-bottom: 1em;
+		}
+		img
+		{
+			margin-bottom: 1em;
+		}
+
+		.view-more
+		{
+			background: $blue;
+			color: $white;
+			padding: .2em .4em;
+			font-size: .90em;
+			margin-bottom: 1em;
+		}
+
+		hr
+		{
+			margin-top: 2.25em;
+			margin-bottom: 2em;
+		}
+
+	}
+	.edit-project-page-sidebar-section
+	{
+	h4
+		{
+			font-weight: normal;
+			font-size: 1em;
+			color: $dark;
+			margin-bottom: 0
+		}
+
+		p
+		{
+			color: $orange;
+			margin-bottom: .75em;
+		}
+
+		a
+		{
+			color: $blue;
+		}
+
+		a:hover
+		{
+			color: $orange;
+		}
+	}
+

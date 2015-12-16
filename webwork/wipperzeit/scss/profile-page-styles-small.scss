@@ -1,0 +1,172 @@
+/* PROFILE PAGE STYLES LARGE =========================*/
+
+	.profile-page-content
+	{
+		font-family: $other;
+	}
+
+	.profile-page-header
+	{
+		background: $orange;
+		
+		h1
+		{
+			color: $white;
+			font-family: $header;
+			font-weight: normal;
+			margin-bottom: 0;
+		}
+	}
+
+	.profile-page-section-header
+	{
+		background: $dark;
+		margin-bottom: 1em;
+		padding-top: .25em;
+		padding-bottom: .25em;
+
+		h3
+		{
+			color: $white;
+			margin-bottom: 0;
+			font-family: $header;
+			font-weight: normal;
+		}
+	}
+
+	.profile-bio-section
+	{	margin-bottom: 2em;
+		img
+		{
+		}
+		h4
+		{
+			font-size: 1em;
+			font-weight: normal;
+			color: $dark;
+			margin-bottom: 0
+		}
+
+		p
+		{
+			font-size: .90em;
+			color: $orange;
+			margin-bottom: .25em;
+		}
+	}
+
+
+	.profile-activity-section
+	{
+		.activity-selector
+		{
+			a
+			{
+				text-align: center;
+				font-size: .80em;
+				background: $blue;
+				color: $lightest;
+				border-left: 1px solid $white;
+				border-right: 1px solid $white;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+
+			.active-activity-selector
+			{
+				background: $darker;
+				color: $orange;
+				margin-bottom: 2em;
+			}
+		}
+
+
+		.activity-desc
+		{
+			margin-bottom: 1em;
+		}
+
+		.profile-page-activity-item
+		{
+			border-top: 1px solid $lightest;
+			padding-top: 2em;
+			padding-bottom: 2.25em;
+
+			h4
+			{
+				margin-bottom: 0;
+			}
+			
+			h4>a
+			{
+				font-family: $header;
+				font-size: 1.5em;
+				font-weight: normal;
+				color: $blue;
+				margin-bottom: 0;
+			}
+
+
+			h5
+			{
+				margin-bottom: 0;
+				font-size: 1.5em;
+			}
+
+			.activity-item-nav
+			{
+				a
+				{
+					color: $white;
+					font-size: .80em;
+					background: $med;
+					text-align: center;
+					padding-top: 5px;
+					padding-bottom: 5px;
+					border: 1px solid white;
+				}
+			}
+
+			.byline
+			{
+				margin-bottom: 1em;
+
+				p
+				{
+					color: $dark;
+					font-size: 1em;
+				}
+
+				span
+				{
+					color: $orange;
+				}
+			}
+
+			p
+			{
+				font-size: 1em;
+				margin-bottom: .75em;
+			}
+		}
+	}
+
+	.profile-page-contact-section
+	{
+
+		h4
+		{
+			font-size: 1.25em;
+			font-weight: normal;
+			color: $orange;
+			margin-bottom: 0
+		}
+
+		p
+		{
+			font-size: 1em;
+			color: $orange;
+			margin-bottom: .75em;
+
+		}
+	}

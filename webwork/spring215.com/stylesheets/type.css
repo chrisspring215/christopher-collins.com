@@ -1,0 +1,288 @@
+/* #Typography
+================================================== */
+/* Global Font and spacing */
+/* line 5, ../scss/type.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: normal;
+}
+
+/* line 11, ../scss/type.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+
+/* line 15, ../scss/type.scss */
+.subheader {
+  color: #777;
+}
+
+/* line 18, ../scss/type.scss */
+p {
+  margin: 0 0 20px 0;
+}
+
+/* line 23, ../scss/type.scss */
+p img {
+  margin: 0;
+}
+
+/* line 28, ../scss/type.scss */
+p.lead {
+  font-size: 21px;
+  line-height: 27px;
+  color: #777;
+}
+
+/* line 30, ../scss/type.scss */
+em {
+  font-style: italic;
+}
+
+/* line 31, ../scss/type.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 32, ../scss/type.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 35, ../scss/type.scss */
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 2.75em 0 0;
+  height: 0;
+}
+
+/* line 38, ../scss/type.scss */
+body {
+  font: 14px/21px "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Specific Global Font and spacing */
+/* =============== Header Styles === */
+/* line 48, ../scss/type.scss */
+.social-links a {
+  font-size: 1.5em;
+}
+
+/* line 52, ../scss/type.scss */
+.client-login {
+  font-size: 1em;
+}
+
+/* line 58, ../scss/type.scss */
+.global-nav a {
+  font-family: 'Josefin Slab', serif;
+  font-size: 2em;
+}
+
+/* =============== Local Nav Styles === */
+/* line 68, ../scss/type.scss */
+.local-nav ul li ul {
+  margin-left: 1em;
+}
+/* line 73, ../scss/type.scss */
+.local-nav ul li ul li {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+/* =============== Body Styles === */
+/* line 86, ../scss/type.scss */
+a {
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+/* line 95, ../scss/type.scss */
+.red h1 {
+  font-size: 3.5em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+/* line 102, ../scss/type.scss */
+.red a {
+  font-size: 2em;
+  line-height: 1.3em;
+}
+
+/* line 111, ../scss/type.scss */
+.white h2 {
+  font-size: 3.25em;
+  margin-bottom: .14em;
+  line-height: 1.1em;
+}
+/* line 118, ../scss/type.scss */
+.white h3 {
+  font-size: 3em;
+  line-height: 1.1em;
+  margin-bottom: .14em;
+  font-weight: 600;
+}
+/* line 126, ../scss/type.scss */
+.white h4 {
+  font-size: 1.75em;
+  padding-top: .25em;
+}
+/* line 131, ../scss/type.scss */
+.white p, .white li {
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+/* line 136, ../scss/type.scss */
+.white p a, .white li a {
+  font-size: 1em;
+}
+/* line 142, ../scss/type.scss */
+.white .client-contact-submission-success {
+  font-weight: bold;
+}
+
+/* line 151, ../scss/type.scss */
+.gray h2 {
+  font-size: 3.25em;
+  margin-bottom: .14em;
+  line-height: 1.1em;
+}
+/* line 158, ../scss/type.scss */
+.gray h3 {
+  font-size: 2.5em;
+  line-height: 1.1em;
+  margin-bottom: .14em;
+}
+/* line 164, ../scss/type.scss */
+.gray p, .gray li {
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+/* line 169, ../scss/type.scss */
+.gray p a, .gray li a {
+  font-size: 1em;
+}
+
+/* line 178, ../scss/type.scss */
+.call-to-action h3 {
+  font-size: 2.25em;
+}
+/* line 182, ../scss/type.scss */
+.call-to-action a {
+  font-size: 1.75em;
+  line-height: 1.3em;
+}
+
+/* line 188, ../scss/type.scss */
+.contact-page .contact-name {
+  font-size: 1.75em;
+}
+
+/* line 194, ../scss/type.scss */
+footer a {
+  font-size: 1em;
+}
+
+/* #Media Queries
+================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 210, ../scss/type.scss */
+  .global-nav a {
+    font-size: 1.75em;
+  }
+
+  /* line 218, ../scss/type.scss */
+  .white h2 {
+    font-size: 3em;
+  }
+  /* line 223, ../scss/type.scss */
+  .white p, .white a {
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  /* line 234, ../scss/type.scss */
+  .mobile-inactive {
+    display: none;
+  }
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 243, ../scss/type.scss */
+  .global-nav a, .client-login a {
+    font-size: 2em;
+    border: none;
+  }
+
+  /* line 252, ../scss/type.scss */
+  .red h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+  }
+
+  /* line 261, ../scss/type.scss */
+  .white h2 {
+    font-size: 3em;
+  }
+  /* line 266, ../scss/type.scss */
+  .white p, .white a {
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+
+  /* line 275, ../scss/type.scss */
+  .gray h3 {
+    font-size: 2em;
+    line-height: 1.3em;
+  }
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  /* line 287, ../scss/type.scss */
+  .global-nav a {
+    font-size: 2em;
+    border: none;
+  }
+
+  /* line 293, ../scss/type.scss */
+  .client-login a {
+    font-size: 1.75em;
+  }
+
+  /* line 301, ../scss/type.scss */
+  .red h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+  }
+
+  /* line 310, ../scss/type.scss */
+  .white h2 {
+    font-size: 1.75em;
+  }
+  /* line 315, ../scss/type.scss */
+  .white h3 {
+    font-size: 2.25em;
+  }
+  /* line 319, ../scss/type.scss */
+  .white p, .white a {
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+
+  /* line 328, ../scss/type.scss */
+  .gray h2 {
+    font-size: 2.5em;
+  }
+  /* line 332, ../scss/type.scss */
+  .gray h3 {
+    font-size: 1.75em;
+    line-height: 1.3em;
+  }
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>ADMIN Client Profile - Spring Creative Group</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/client-style.css">
+
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- Web Fonts
+	================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+<div class="row top">
+	<div class="container top-space bottom-space">
+		<section class="sixteen columns">
+			<header>
+				<nav>
+					<a class="four columns" href="index.html"><img src="images/spring215-logo-white.png"></a>
+				</nav>
+				<h1 class="six columns offset-by-one alpha">ADMIN: CLIENTS</h1>
+				<div class="six columns omega login">
+					<span>chris@spring215.com:</span>&nbsp;&nbsp;
+					<a href="">log out</a>
+				</div>
+			</header>
+		</section>
+	</div>
+</div>
+
+<div class="row middle top-space bottom-space">
+	<div class="container top-space bottom-space">
+		<section class="sixteen columns offset-by-two bottom-space">
+			<h2 class="twelve columns offset-by-one">Clients</h2>
+
+			<div class="twelve columns profile-section">
+				<h3 class="twelve columns offset-by-one alpha">Super Widgets LLC</h3>
+				<a class="edit-clients-button twelve columns offset-by-one alpha bottom-space" href="">EDIT CLIENT</a>
+				
+				<div class="twelve columns offset-by-one profile-section-item alpha">
+					<h4 class="twelve columns alpha">Branding</h4>
+					<div class="twelve columns alpha"> 
+						<span class="four columns alpha omega"><a href="">Clientname logo design</a></span>
+						<span class="four columns alpha omega">updated 1/12/80</span>
+						<span class="four columns alpha omega"><a href="client-project.html">Edit Project</a></span>
+					</div>
+				</div>
+				<div class="twelve columns offset-by-one profile-section-item alpha">
+					<h4 class="twelve columns alpha">Web Design</h4>
+					<div class="twelve columns alpha"> 
+						<span class="four columns alpha omega"><a href="">Clientname logo design</a></span>
+						<span class="four columns alpha omega">updated 1/12/80</span>
+						<span class="four columns alpha omega"><a href="client-project.html">Edit Project</a></span>
+					</div>
+				</div>
+				<div class="twelve columns offset-by-one profile-section-item alpha">
+					<h4 class="twelve columns alpha">Web Development</h4>
+					<div class="twelve columns alpha"> 
+						<span class="four columns alpha omega"><a href="">Clientname logo design</a></span>
+						<span class="four columns alpha omega">updated 1/12/80</span>
+						<span class="four columns alpha omega"><a href="client-project.html">Edit Project</a></span>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="twelve columns profile-section">
+				<h3 class="twelve columns offset-by-one alpha">Super Widgets LLC</h3>
+				<a class="edit-clients-button twelve columns offset-by-one alpha bottom-space" href="">EDIT CLIENT</a>
+				
+				<div class="twelve columns offset-by-one profile-section-item alpha">
+					<h4 class="twelve columns alpha">No Active Projects</h4>
+					<div class="twelve columns alpha"> 
+						<span class="four columns alpha omega"><a href="">ADD A PROJECT</a></span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ADD CLIENT FORM -->
+		<section  class="sixteen columns offset-by-two bottom-space">
+			<div class="twelve columns">
+				<h2 class="twelve columns offset-by-one alpha">Add Client</h2>
+			</div>
+
+			<div class="twelve columns section-body bottom-space">
+				<section class="six columns offset-by-one top-space alpha">
+					<form id="login">
+					    <fieldset id="inputs">
+					    	<h3>Enter Client Info</h3>
+					    	<input id="name" type="text" placeholder="Client Name" autofocus required> 
+					        <input id="email" type="email" placeholder="Client Primary Email" autofocus required>   
+					        <input id="password" type="password" placeholder="Set Password" required>
+					       <br>
+					        <h3 class="top-space">Account Options</h3>
+					        <div class="input-buttons">
+					        	<p>Email password to client?</p>
+					        	<input type="radio" name="sendemail" value="Yes"><span>Yes</span>
+					        	<input type="radio" name="sendemail" value="No"><span>No</span>
+					    	</div>
+							<div class="input-buttons-projects">
+					        	<p>Create a Project Category</p>
+					        	<input type="checkbox" name="projecttype" value="branding"><span>branding</span>
+					        	<br>
+					        	<input type="checkbox" name="projecttype" value="print"><span>print</span>
+					        	<br>
+					        	<input type="checkbox" name="projecttype" value="webdesign"><span>web design</span>
+					        	<br>
+					        	<input type="checkbox" name="projecttype" value="webdevelopment"><span>web development</span>
+					        	<br>
+					    	</div>
+							<input class="form-button" type="submit" id="addclient" value="add client">
+					    </fieldset>
+					</form>
+				</section>
+			</div>
+		</section>
+
+		<!--Archived Clients -->
+		<section  class="sixteen columns offset-by-two archived-section">
+			<div class="twelve columns">
+				<h2 class="twelve columns offset-by-one alpha">Archived Clients</h2>
+			</div>
+
+			<div class="twelve columns section-body bottom-space">
+				<section class="twelve columns offset-by-one top-space alpha archived-titles">
+					<ul class="four columns">
+						<li>Client Name</li>
+					</ul>
+					<ul class="four columns">
+						<li>Unarchive?</li>
+					</ul>
+				</section>
+				<section class="twelve columns offset-by-one top-space alpha">
+					
+					<!-- Client -->
+					<ul class="four columns">
+						<li><a href="">Old Client1 LLC</a></li>
+					</ul>
+					<ul class="four columns">
+						<li><a href="">Unarchive</a></li>
+					</ul>
+
+					<!-- Client -->
+					<ul class="four columns">
+						<li><a href="">Old Client2 LLC</a></li>
+					</ul>
+					<ul class="four columns">
+						<li><a href="">Unarchive</a></li>
+					</ul>
+
+					<!-- Client -->
+					<ul class="four columns">
+						<li><a href="">Old Client3 LLC</a></li>
+					</ul>
+					<ul class="four columns">
+						<li><a href="">Unarchive</a></li>
+					</ul>
+
+					<!-- Client -->
+					<ul class="four columns">
+						<li><a href="">Old Client4 LLC</a></li>
+					</ul>
+					<ul class="four columns">
+						<li><a href="">Unarchive</a></li>
+					</ul>
+				</section>
+			</div>
+		</section>
+	</div>
+</div>
+
+<div class="row bottom top-space bottom-space">
+	<footer class="container">
+		<section class="four columns">
+			<h4>Services</h4>
+				<ul>
+					<li><a href="">Branding</a></li>
+					<li><a href="">Print</a></li>
+					<li><a href="">Web Design</a></li>
+				</ul>
+		</section>
+		<section class="four columns">
+			<h4>Social</h4>
+				<ul>
+					<li><a href="https://www.facebook.com/pages/Spring-Creative-Group/637144592980321" title="SPRING Creative Group's Facebook page"><i class="foundicon-facebook"></i> Facebook</a></li>
+					<li><a href="https://twitter.com/Spring_CG" title="SPRING Creative Group's Twitter page"><i class="foundicon-twitter"></i> Twitter</a></li>
+					<li><a href="http://www.linkedin.com/company/3180921" title="SPRING Creative Group's Linkedin page"><i class="foundicon-linkedin"></i> LinkedIn</a></li>
+				</ul>
+		</section>
+		<section class="four columns">
+			<h4>Partners</h4>
+				<ul>
+					<li><a href="http://www.annarborusa.org/" title="SPARK USA's website">SPARK USA</a></li>
+					<li><a href="http://www.wccnet.edu/" title="Washtenaw Community College's website">Washtenaw Community College</a></li>
+					<li><a href="http://elg.ewashtenaw.org/" title="Eastern Leader's Group website">Eastern Leaders Group</a></li>
+				</ul>
+		</section>
+		<section class="four columns">
+			<h4>Contact</h4>
+				<ul>
+					<li><a href="mailto:info@spring215.com?Subject=Request%20information">Email: info@spring215.com</a></li>
+					<li itemscope itemtype="http://schema.org/LocalBusiness"><a itemprop="telephone" href="tel:+17343724048">Phone: 734.372.4048</a></li>
+					<li><a href="https://maps.google.com/maps?client=firefox-a&q=215+W.+Michigan+Ave+Ypsilanti,+MI+48197&ie=UTF-8&hq=&hnear=0x883ca847336a1def:0x597e965b804eae6f,215+W+Michigan+Ave,+Ypsilanti,+MI+48197&gl=us&ei=0zWyUczyHerI0gHPuoDoAw&ved=0CC0Q8gEwAA">Address: 215 W. Michigan Ave
+						<br>
+						Ypsilanti, MI 48197</a></li>	
+				</ul>
+		</section>
+	</footer>
+</div>
+
+<!-- End Document
+================================================== -->
+<script type="text/javascript" src="js/modernizr.custom.29172.js"></script>
+</body>
+</html>

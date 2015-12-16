@@ -1,0 +1,544 @@
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+/* #Site Styles
+================================================== */
+/* line 11, ../scss/client-project-layout.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 13, ../scss/client-project-layout.scss */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* ================================== */
+/* Adds margin padding to elements inside containers */
+/* ================================================= */
+/* line 27, ../scss/client-project-layout.scss */
+.top-space {
+  padding-top: 1em;
+}
+
+/* line 32, ../scss/client-project-layout.scss */
+.bottom-space {
+  padding-bottom: 1em;
+}
+
+/* ================================================= */
+/* Manages image floats */
+/* ================================================= */
+/* line 42, ../scss/client-project-layout.scss */
+img.right {
+  float: right;
+  padding-left: 1em;
+}
+
+/* line 48, ../scss/client-project-layout.scss */
+img.left {
+  float: left;
+  padding-right: 1em;
+}
+
+/* ================================================= */
+/* ============== */
+/* Header Styles */
+/* ============== */
+/* line 62, ../scss/client-project-layout.scss */
+.top img {
+  height: auto;
+  width: 2em;
+}
+/* line 68, ../scss/client-project-layout.scss */
+.top span {
+  text-align: right;
+}
+
+/* line 78, ../scss/client-project-layout.scss */
+.middle p {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+/* line 88, ../scss/client-project-layout.scss */
+.middle .local-nav h2 {
+  margin-bottom: .25em;
+}
+/* line 93, ../scss/client-project-layout.scss */
+.middle .local-nav h3 {
+  margin-bottom: .5em;
+}
+/* line 100, ../scss/client-project-layout.scss */
+.middle .local-nav li {
+  margin-bottom: .25em;
+}
+/* line 111, ../scss/client-project-layout.scss */
+.middle .project-section h1 {
+  margin-bottom: 1em;
+}
+/* line 116, ../scss/client-project-layout.scss */
+.middle .project-section h3 {
+  text-align: right;
+  margin-bottom: .25em;
+}
+/* line 122, ../scss/client-project-layout.scss */
+.middle .project-section h4 {
+  text-align: right;
+  margin-bottom: .5em;
+}
+/* line 128, ../scss/client-project-layout.scss */
+.middle .project-section p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+}
+/* line 135, ../scss/client-project-layout.scss */
+.middle .project-section nav {
+  text-align: right;
+}
+/* line 140, ../scss/client-project-layout.scss */
+.middle .project-section nav > * {
+  display: inline;
+}
+/* line 146, ../scss/client-project-layout.scss */
+.middle .project-section h4 {
+  font-size: 1.25em;
+}
+/* line 151, ../scss/client-project-layout.scss */
+.middle .project-section nav > a:nth-child(1):before {
+  content: '\003c\003c';
+}
+/* line 156, ../scss/client-project-layout.scss */
+.middle .project-section nav > a:nth-child(1):after {
+  content: '\00a0\00a0';
+}
+/* line 161, ../scss/client-project-layout.scss */
+.middle .project-section nav > a:nth-child(2):before {
+  content: '\00a0\00a0';
+}
+/* line 166, ../scss/client-project-layout.scss */
+.middle .project-section nav > a:nth-child(2):after {
+  content: '\003e\003e';
+}
+
+/* #Media Queries
+================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  /* line 182, ../scss/client-project-layout.scss */
+  .middle hr {
+    display: none;
+  }
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 195, ../scss/client-project-layout.scss */
+  .middle hr {
+    display: none;
+  }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  /* line 208, ../scss/client-project-layout.scss */
+  .middle hr {
+    width: 16.5em;
+    margin-top: 1.5em;
+    margin-left: 0em;
+  }
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 222, ../scss/client-project-layout.scss */
+  .top h1 {
+    padding-top: .5em;
+    padding-bottom: 1em;
+  }
+  /* line 228, ../scss/client-project-layout.scss */
+  .top .login {
+    text-align: center;
+  }
+  /* line 234, ../scss/client-project-layout.scss */
+  .top img {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  /* line 243, ../scss/client-project-layout.scss */
+  .middle .profile-section {
+    margin-top: .5em;
+  }
+  /* line 247, ../scss/client-project-layout.scss */
+  .middle .profile-section p {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    padding-right: 2em;
+  }
+  /* line 255, ../scss/client-project-layout.scss */
+  .middle .profile-section h3 {
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: .75em;
+  }
+  /* line 262, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: .75em;
+    border-right: 6px solid #666;
+    border-bottom: 6px solid #666;
+    border-left: 6px solid #666;
+  }
+  /* line 271, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item h4 {
+    font-size: 1.5em;
+    padding-bottom: .25em;
+  }
+  /* line 277, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item .titles {
+    margin-bottom: .25em;
+  }
+  /* line 283, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item .links {
+    margin-bottom: 1em;
+  }
+  /* line 288, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item span {
+    margin-top: .25em;
+    margin-bottom: .25em;
+  }
+  /* line 294, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item hr {
+    display: block;
+    width: 24em;
+    margin: 2em 0 .25em 0;
+  }
+  /* line 301, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item .approved-button, .middle .profile-section .profile-section-item .not-approved-button {
+    display: block;
+    text-align: center;
+    padding: .75em 0;
+    width: 24em;
+  }
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  /* line 319, ../scss/client-project-layout.scss */
+  .top h1 {
+    padding-top: .5em;
+    padding-bottom: 1em;
+  }
+  /* line 325, ../scss/client-project-layout.scss */
+  .top .login {
+    text-align: center;
+  }
+  /* line 330, ../scss/client-project-layout.scss */
+  .top img {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  /* line 340, ../scss/client-project-layout.scss */
+  .middle .profile-section {
+    margin-top: .5em;
+  }
+  /* line 344, ../scss/client-project-layout.scss */
+  .middle .profile-section p {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    padding-right: 2em;
+  }
+  /* line 352, ../scss/client-project-layout.scss */
+  .middle .profile-section h3 {
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: .75em;
+  }
+  /* line 359, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: .75em;
+    border-right: 6px solid #666;
+    border-bottom: 6px solid #666;
+    border-left: 6px solid #666;
+  }
+  /* line 368, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item h4 {
+    font-size: 1.5em;
+    padding-bottom: .25em;
+  }
+  /* line 374, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item .titles {
+    margin-bottom: .25em;
+  }
+  /* line 380, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item .links {
+    margin-bottom: 1em;
+  }
+  /* line 385, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item span {
+    margin-top: .25em;
+    margin-bottom: .25em;
+  }
+  /* line 391, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item hr {
+    display: block;
+    width: 16.5em;
+    margin: 2em 0 .25em 0;
+  }
+  /* line 398, ../scss/client-project-layout.scss */
+  .middle .profile-section .profile-section-item .approved-button, .middle .profile-section .profile-section-item .not-approved-button {
+    display: block;
+    text-align: center;
+    padding: .75em 0;
+    width: 16.5em;
+  }
+}
+/* #Font-Face
+================================================== */
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+/* line 7, ../scss/social_foundicons.scss */
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 17, ../scss/social_foundicons.scss */
+[class*="foundicon-"]:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+/* line 6, ../scss/_settings.scss */
+.foundicon-facebook:before {
+  content: "\f003";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-twitter:before {
+  content: "\f004";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-github:before {
+  content: "\f006";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-linkedin:before {
+  content: "\f008";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-google-plus:before {
+  content: "\f00d";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-youtube:before {
+  content: "\f00e";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-vimeo:before {
+  content: "\f00f";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-flickr:before {
+  content: "\f010";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-slideshare:before {
+  content: "\f011";
+}
+
+/* line 6, ../scss/_settings.scss */
+.foundicon-skype:before {
+  content: "\f013";
+}
+
+/* general icons for IE7 */
+/* line 4, ../scss/social_foundicons_ie7.scss */
+[class*="foundicon-"] {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-thumb-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-thumb-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-rss {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-facebook {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-twitter {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-pinterest {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-github {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-path {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-linkedin {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-dribbble {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-stumble-upon {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-behance {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-reddit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-google-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-youtube {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-vimeo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-flickr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-slideshare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-picassa {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-skype {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-steam {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-instagram {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-foursquare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-delicious {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-torso {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-tumblr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-video-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-digg {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
+}
+
+/* line 12, ../scss/_settings.scss */
+.foundicon-wordpress {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}

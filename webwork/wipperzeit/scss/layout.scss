@@ -1,0 +1,298 @@
+/* FONT Vairables */
+$header: 'Bevan', cursive;
+$other: 'Muli', sans-serif;
+
+
+/* COLOR Vairables */
+
+$white: #ffffff;
+$lightest: #eeeeee;
+$light: #cccccc;
+$med: #999999;
+$dark: #666666;
+$darker: #333333;
+$darkest: #222222;
+$black: #000000;
+
+$orange: #dc6122;
+$blue: #3e89be;
+
+
+/* BODY BACKGROUND */
+body
+{
+	background: $darkest;
+}
+
+/* Row Colors */
+.darkest
+{
+	background: $darkest;
+}
+
+.blue
+{
+	background: $blue;
+}
+
+.white
+{
+	background: $white;
+}
+
+
+*
+{
+	font-family: $other;
+}
+
+
+
+
+/*
+=============================================
+Header Styles Controled by Foundation Classes 
+=============================================
+*/
+
+/* LARGE SCREEN HEADER STYLE */
+.hide-for-small
+{
+	header
+	{
+		padding: .5em 0;
+		
+		h2
+		{
+			color: $orange;
+			font-family: $header;
+			font-weight: normal;
+		}
+
+		.utility-nav
+		{
+			text-align: right;
+		}
+
+		a
+		{
+			color: $blue;
+		}
+	}
+}
+
+/* SMALL SCREEN HEADER STYLE */
+.hide-for-medium-up
+{
+	header
+	{
+		padding: .5em 0 0 0;
+
+		h2
+		{
+			color: $orange;
+			font-family: $header;
+			font-weight: normal;
+			font-size: 1em;
+		}
+		a
+		{
+			font-size: 1em;
+			float: right;
+			margin-left: .75em;
+			color: $blue;
+			font-weight: normal;
+		}
+	}
+}
+
+/*
+============================================
+Large and Small Screen Styles break at 48ems
+============================================
+*/
+
+/* ================= Small Screen =================*/
+
+@media only screen and (max-width: 48em)
+{
+
+
+article
+{
+	color: $dark;
+	margin: 0 0 1em 0;
+
+	a
+	{
+		color: $blue;
+	}
+
+	/*
+	IMPORTS STYLES FOR LANDING PAGE
+	SMALL SCREEN ONLY
+	*/ 
+	@import 'landing-page-styles-small';
+
+	/*
+	IMPORTS STYLES FOR AGGRAGATOR PAGE
+	SMALL SCREEN ONLY
+	*/ 
+	@import 'aggragator-page-styles-small';
+
+	/*
+	IMPORTS STYLES FOR PROFILE PAGE
+	SMALL SCREEN ONLY
+	*/ 
+	@import 'profile-page-styles-small';
+
+	/*
+	IMPORTS STYLES FOR PROFILE PAGE
+	SMALL SCREEN ONLY
+	*/ 
+	@import 'profile-page-styles-small';
+
+
+}
+
+footer
+{
+	padding-top: 3em;
+	padding-bottom: 2em;
+	text-align: center;
+
+	a
+	{
+		color: $blue;
+	}
+}
+
+.copyright
+{
+	p
+	{
+		color: $dark;
+		text-align: center;
+	}
+}
+}
+
+/*============== Big Screen ===================*/
+
+/*
+IMPORTS STYLES FOR POP-UP Log-IN Window
+LARRGE SCREEN ONLY
+*/ 
+
+@import 'log-in';
+
+@media only screen and (min-width: 48em)
+{
+
+
+
+
+.global-nav
+{
+	padding-top: .5em;
+	padding-bottom: .5em;
+
+	a
+	{
+		color: $white;
+		font-size: 1em;
+		padding: 0;
+		margin: 0 1em 0 0;
+
+		button
+		{
+		}
+	}
+}
+
+
+article
+{
+	color: $dark;
+	margin: 2em 0 4em 0;
+
+	a
+	{
+		color: $blue;
+	}
+
+	/*
+	IMPORTS STYLES FOR LANDING PAGE
+	LARRGE SCREEN ONLY
+	*/ 
+
+	@import 'landing-page-styles-large';
+
+	/*
+	IMPORTS STYLES FOR AGGRAGATOR PAGES
+	LARRGE SCREEN ONLY
+	*/ 
+	@import 'aggragator-page-styles-large';
+
+	/* 
+	IMPORTS STYLES FOR PROFILE PAGES
+	LARRGE SCREEN ONLY
+	*/ 	
+	@import 'profile-page-styles-large';
+
+	/* 
+	IMPORTS STYLES FOR PROJECT PAGES
+	LARRGE SCREEN ONLY
+	*/ 
+	@import 'project-page-styles-large';
+
+	/* 
+	IMPORTS STYLES FOR PROJECT PAGES
+	LARRGE SCREEN ONLY
+	*/ 
+	@import 'edit-profile-page-styles-large';
+
+	/* 
+	IMPORTS STYLES FOR CREATE A PROJECT PAGES
+	LARRGE SCREEN ONLY
+	*/ 
+	@import 'create-a-project-styles-large';
+
+	/* 
+	IMPORTS STYLES FOR PROJECT PAGES
+	LARRGE SCREEN ONLY
+	*/ 
+	@import 'edit-project-page-styles-large';
+
+	/* 
+	IMPORTS STYLES FOR ABOUT PAGE
+	LARRGE SCREEN ONLY
+	*/ 
+	@import 'about-page-styles-large';
+}
+
+
+/* =======================FOOTER STYLES ========================================*/
+footer
+{
+	padding-top: 3em;
+	padding-bottom: 2em;
+	text-align: center;
+
+	a
+	{
+		color: $blue;
+	}
+}
+
+.copyright
+{
+	p
+	{
+		color: $dark;
+		text-align: center;
+	}
+}
+
+}
+

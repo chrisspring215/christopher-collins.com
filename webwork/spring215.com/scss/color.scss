@@ -1,0 +1,353 @@
+/* ====== Color Variables ====== */
+
+/* For Red Backgrounds, Links */
+$red: #ee3c2d;
+
+/* For Footer Background */
+$darkgray: #333333;
+
+/* For Header text, bolded text */
+$medgray: #666666;
+
+/* For body paragraph text */
+$lightgray: #777777;
+
+/* For link buttons with on colored backgrounds */
+$lightestgray: #dddddd;
+
+/* For text with color backgrounds text */
+$white: #ffffff;
+
+
+/* ====== Color Styles ======*/
+
+/* === Global Colors ===*/
+/* Text Color */
+h1, h2, h3, h4, h5, h5
+{
+	color: $medgray;
+}
+
+p
+{	
+	color: $lightgray;
+}
+
+a
+{
+	color: $red;
+}
+
+a:hover
+{
+	transition: color 0.5s ease;
+	color: $lightgray;
+}
+
+strong
+{
+	color: $medgray;
+}
+
+/* Background Color */
+
+/* === Header Specific Colors ===*/
+/* Text Color */
+/* Background Color */
+
+.social-links
+	{
+		a
+		{
+			color: $red;
+			opacity: .25;
+		}
+
+		a:hover
+		{
+			color: $red;
+			opacity: 1;
+			transition: opacity 0.5s ease;
+		}
+	}
+.client-login a
+{
+	color: $red;
+}
+.global-nav
+	{
+		a
+		{
+			/* border-bottom: .1em solid $red; */
+			background: $white;
+			color: $red;
+		}
+
+		a:hover /* Move this to the colors scss */
+		{
+			background: $red;
+			color: $white;
+			transition: color 0.5s ease;
+			transition: background 0.5s ease
+		}
+	}
+
+.local-nav
+{
+	ul
+	{
+		li
+		{
+			ul
+			{
+				li
+				{
+					a
+					{
+						color: $darkgray;
+					}
+
+					a:hover
+					{
+						transition: color 0.5s ease;
+						color: $lightgray;
+					}
+				}
+			}
+		}
+	}
+}
+/* === Body Specific Colors ===*/
+/* Text Color */
+
+
+.red, .title-section
+{
+	h1, h2, h3, h4, h5, h5
+	{		
+		color: white;
+	}
+
+	a
+	{
+		color: $red;
+	}
+
+	a:hover
+	{
+		color: $red;
+	}
+}
+
+
+
+.gray
+{
+	h1, h2, h3, h4, h5, h5
+	{		
+		color: white;
+	}
+	
+	p
+	{
+		color: $white;
+	}
+}
+/* Background Color */
+
+
+.red
+{
+	background: $red;
+
+	a
+	{
+		background: $white;
+	}
+
+	a:hover
+	{
+		transition: background 0.5s ease;
+		background: $lightestgray;
+	}
+}
+
+.white
+{
+
+	.client-contact-submission-success
+	{
+		color: $red;
+	}
+
+	li
+	{
+		color: $lightgray;
+	}
+
+	h3
+	{
+		color: $red;
+	}
+
+	.customer-question
+		{
+			color: $lightgray;
+		}
+	.one-third:hover
+	{
+		
+		.customer-question
+		{
+			transition: color 0.5s ease;
+			color: $medgray;
+		}
+	}
+	
+
+
+	.customer-contact-form
+	{
+		background: $red;
+		padding: 1em;
+	
+		h3
+		{
+			color: $white;
+		}
+
+		p
+		{
+			color: $white;
+		}
+		
+		span
+		{
+			margin: 0 0 0 .5em;
+			color: $white;
+			font-size: 1.25em;
+		}
+
+		input
+		{
+			font-size: 1em;
+			color: $medgray;
+		}
+
+		textarea
+		{
+			padding: .5em;
+			color: $medgray;
+			width: 100%;
+		}
+
+		input[value="submit"]
+		{
+			border: none;
+			font-size: 2em;
+			color: $red;
+			height: 40px;
+		}
+
+	}
+}
+
+
+
+.gray
+{
+	background: $medgray;
+}
+
+.darkgray
+{
+	background: $darkgray;
+}
+
+.call-to-action
+{
+	h3, p
+	{
+		color: $white;
+	}
+
+}
+
+/* === Footer Specific Colors ===*/
+/* Text Color */
+
+.darkgray
+{
+	h4
+	{
+		color: $red;
+	}
+
+	a
+	{
+		color: $lightestgray
+	}
+
+	a:hover
+	{
+		text-decoration: underline;
+	}
+}
+
+/* Background Color */
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	
+		.mobile-inactive
+		{
+			display: none;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		.global-nav a
+		{
+			background: $red;
+			color: $white;
+		}
+
+		.client-login a
+		{
+			background: $lightestgray;
+			color: $red;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+		.global-nav a
+		{
+			background: $red;
+			color: $white;
+		}
+
+		.client-login a
+		{
+			background: $lightestgray;
+			color: $red;
+		}
+	}
+
+
+
+
+

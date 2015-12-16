@@ -1,0 +1,137 @@
+/* Client Facing Color Styles */
+
+/* ====== Color Variables ====== */
+
+/* For Red Backgrounds, Links */
+$red: #ee3c2d;
+
+/* For Footer Background */
+$darkgray: #333333;
+
+/* For Header text, bolded text */
+$medgray: #666666;
+
+/* For body paragraph text */
+$lightgray: #777777;
+
+/* For link buttons with on colored backgrounds */
+$lightestgray: #dddddd;
+
+/* For text with color backgrounds text */
+$white: #ffffff;
+
+$green: #22b63c;
+
+body
+{
+	background: $darkgray;
+}
+
+/* HEADER COLOR */
+
+.top
+{
+	background: $red;
+	color: $white;
+
+	a
+	{
+		color: $white;
+	}
+
+	.project-name
+	{
+		color: $lightestgray;
+	}
+}
+
+.middle
+{
+	p
+	{
+		color: $white;
+	}
+
+	background: $darkgray;
+
+	.local-nav
+	{
+
+		h2
+		{
+			color: $white;
+		}
+
+		h3
+		{
+			color: $lightestgray;
+		}
+
+		a
+		{
+			color: $red;
+		}
+	}
+
+	.project-section
+	{
+		h1
+		{
+			color: $white;
+		}
+
+		h3
+		{
+			color: $white;
+		}
+
+		h4
+		{
+			color: $lightestgray;
+		}
+
+		a
+		{
+			color: $red;
+		}
+	}
+}
+
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	body
+	{
+		background: $darkgray;
+	}
+
+	.middle
+	{
+
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px){
+
+	body
+	{
+		background: $darkgray;
+	}
+
+	.middle
+	{
+
+	}
+}

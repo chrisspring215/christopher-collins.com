@@ -1,0 +1,879 @@
+html
+{
+  background-color: $background;
+}
+*, *:before, *:after
+{
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+a
+{
+  padding: 0;
+}
+
+body
+{
+  background-color: $background;
+}
+
+.start-button
+{
+  background-color: $choose-catagory;
+  color: #fff;
+  margin: 0 auto;
+  padding: .3em .8em;
+  font-size: 2em;
+  border-radius: .8em;
+  font-weight: 100;
+}
+
+
+
+@-moz-keyframes Fade {
+  0%   { opacity: 1; }
+
+  100% { opacity: .025; }
+}
+@-webkit-keyframes Fade {
+  0%   { opacity: 1; }
+
+  100% { opacity: .025; }
+}
+.fade
+{
+  -moz-animation-name: Fade;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: ease-out;
+  -webkit-animation-name: Fade;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+}
+.fade
+{
+  opacity: .025;
+}
+
+.start-button:hover
+{
+  color: #fff;
+}
+
+@-moz-keyframes FadeIn {
+  0%   { opacity: 0; }
+
+  100% { opacity: .9; }
+}
+@-webkit-keyframes FadeIn {
+  0%   { opacity: 0; }
+
+  100% { opacity: .9; }
+}
+.fadeIn
+{
+  -moz-animation-name: FadeIn;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: ease-out;
+  -webkit-animation-name: FadeIn;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+}
+.fadeIn
+{
+  opacity: .9;
+}
+
+.menu-select-instructions
+{
+  font-weight: bold;
+  font-size: 2em;
+  color: #ffffff;
+  position: relative;
+  bottom: 9em;
+  width: 15em;
+  margin: 0 auto;
+}
+.selections
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+
+  /* Nav Color Managment */
+  .static
+  {
+    background-color: $static;
+  }
+  .active-catagory
+  {
+    background-color: $active-catagory;
+  }
+
+  .inactive
+  {
+    background-color: $inactive - #111111;
+  }
+
+  .choose
+  {
+    background-color: $choose-catagory;
+  }
+
+  .current-page
+  {
+    background-color: $choose-catagory + #222222;
+  }
+}
+
+.global-nav 
+ {
+  ul
+  {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    
+    li
+    {
+      float: left;
+      font-weight: bold;
+      font-family: $typography-main;
+      border-left: 1px solid $background;
+      border-right: 1px solid $background;
+
+      a
+      {
+        display: block;
+        color: $link;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+      
+  .items-one
+    {
+      li
+      {
+        width: 100%;
+      }
+    }
+  .items-two
+    {
+      li
+      {
+        width: 50%;
+      }
+    }
+
+  .items-three
+    {
+      li
+      {
+        width: 33.3333%;
+      }
+    }
+
+  .items-four
+    {
+      li
+      {
+        width: 25%;
+      }
+    }
+
+  .items-four
+    {
+      li
+      {
+        width: 25%;
+      }
+    }
+
+  .items-five
+    {
+      li
+      {
+        width: 20%;
+      }
+    }
+  .items-six
+    {
+      li
+      {
+        width: 16.666666%;
+      }
+    }
+  .items-seven
+    {
+      li
+      {
+        width: 14.2857142%;
+      }
+    }
+}
+
+@-webkit-keyframes App {
+  0%   { top: -4.02em; }
+  25%   { top: -4.02em; }
+  100% { top: 0em; }
+}
+@-moz-keyframes App {
+  0%   { top: -4.02em; }
+  25%   { top: -4.02em; }
+  100% { top: 0em; }
+}
+#drops
+{
+  position: relative;
+  -moz-animation-name: App;
+  -moz-animation-duration: .75s;
+  -moz-animation-timing-function: ease-out;
+  -webkit-animation-name: App;
+  -webkit-animation-duration: .75s;
+  -webkit-animation-timing-function: ease-out;
+
+}
+#drops
+{
+  top: 0em;
+}
+
+
+hr
+{
+  clear: both;
+  margin: 0;
+  border-color: #111;
+  margin-bottom: 1px;
+}
+
+.sub
+{
+  ul
+  {
+   
+    li
+    {
+      font-size: .4em;
+      font-weight: bold;
+      border-bottom: 2px solid $background;
+    
+      a
+      {
+        display: block;
+        color: $link;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+.sub-level-3
+{
+  ul
+  {
+
+    li
+    {
+      font-size: .4em;
+      font-weight: bold
+    
+      a
+      {
+        display: block;
+        color: $link;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+
+
+.home-page-message-portrait
+{
+  position: fixed;
+  top: 20%;
+
+  .home-page-message-portrait-content
+  {
+
+
+    h1
+    {
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    img
+    {
+      
+    }
+  }
+}
+
+.home-page-message-landscape
+{
+  width: 30%;
+  margin: 12% auto 0 auto;
+
+  h1
+  {
+    color: $text;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+}
+
+/*
+.food-item-page
+{
+  margin-top: 88px;
+  margin-bottom: 3em;
+  color: $text;
+
+  .food-item-name
+  {
+    color: $static;
+    font-weight: bold;
+    font-size: 2.25em;
+    margin-bottom: .25em;
+
+    .food-item-page-price
+    {
+      color: $text;
+      font-size: .6em;
+    }
+  }
+  .food-item-page-header
+  {
+    color: $active-catagory;
+    font-weight: bold;
+    font-size: 1.25em;
+  }
+
+  .food-item-page-subheader
+  {
+    color: $static;
+    font-size: .75em;
+  }
+  .food-item-page-content
+  {
+    color: $text;
+    font-size: 1em;
+    list-style-type: none;
+    margin-left: 0;
+  }
+}
+*/
+.menu-content-header
+{
+  margin-top: 78px;
+  margin-bottom: 3em;
+
+  .sup-menu-info
+  {
+    background-color: #222222;
+    margin-bottom: -18px;
+    padding-left: .5em;
+    padding-right: .5em;
+
+    p
+    {
+      font-size: .65em;
+      color: $text;
+      padding-bottom: 1em;
+      padding-top: 1em;
+    }
+  }
+
+.item-style-select
+{
+  background-color: #222222;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+  select
+  {
+    background-color: $choose-catagory;
+    font-weight: bold;
+    border: none;
+    border-left: 1px solid $background;
+    border-right: 1px solid $background;
+    border-bottom: 3px solid $background;
+    color: $text;
+    padding-bottom: 0;
+
+    option
+    {
+      border: none;
+      border-bottom: 1px solid $background;
+      padding: .25em 0 .25em 0;
+    }
+  }
+}
+
+.drop-down-css
+{
+  color: $text;
+  border-left: 1px solid $background;
+  border-right: 1px solid $background;
+  border-bottom: 2px solid $background;
+  border-top: 0px solid $background;
+  margin-top: -1px;
+  
+  span
+  {
+    display: block;
+    padding-top : 10px;
+    padding-bottom : 10px;
+  }
+
+  ul
+  {
+    background-color: $choose-catagory;
+    margin: 0;
+    list-style-type: none;
+    
+
+    li ul li
+    {
+      border-top: 1px solid $background;
+      
+    }
+
+    li a
+    {
+      color: $text;
+      display: block;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+}
+.drop-down-css ul ul {
+  display: none;
+  
+}
+
+.drop-down-css ul li:hover > ul {
+    display: block;
+    background-color: $choose-catagory + #111111;
+
+    a:hover
+    {
+      background-color: $choose-catagory + #222222;
+    }
+  }
+
+  table
+  {
+    width: 100%;
+    border: none;
+
+    thead
+    {
+
+      th
+      {
+        color: $static;
+        background-color: $background + #111111;
+        border-bottom: 2px solid $background;
+        font-size: .75em;
+        padding-bottom: 2px;
+      }
+
+      .menu-notice
+      {
+        color: red;
+      }
+      .product-table-lable
+      {
+        width: 29%;
+      }
+
+      .product-description-lable
+      {
+        width: 50%;
+
+      }
+
+      .product-price-lable
+      {
+        width: 21%;
+      }
+    }
+    
+    tbody
+    {
+      tr
+      {
+        border-bottom: 1px solid $background + 10;
+      }
+
+      td
+      {
+        color: $text;
+        background-color: $background;
+        font-size: .65em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-weight: bold;
+      }
+
+      .product-logo
+      {
+        text-align: center;
+        border: $menu-item-border;
+
+        img
+        {
+          width: 100%;
+          border-radius: .5em;
+          padding: 0;
+        }
+      }
+
+      .product-name
+      {
+        color: $static;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-bottom: .25em;
+      }
+
+      .special-menu-item
+      {
+        border-top: 3px solid $inactive;
+        border-bottom: 3px solid $inactive;
+        td
+        { 
+          color: $background;
+          background: $active-catagory;
+
+          .menu-item-link>h3
+          {
+            color: $inactive;
+          }
+
+          .product-logo, .menu-item-link
+          {
+            color: $background;
+          }
+
+        }
+        /*
+        .product-name::after
+        {
+          content: "special";
+          font-size: .75em;
+          color: $choose-catagory;
+          border-radius: .25em;
+          padding: .025em .4em;
+          margin-left: .5em;
+        }
+        */
+      }
+      .menu-item-link
+      {
+        color: $text;
+      }
+    }
+  }
+  .in-page-header
+  {
+    border-bottom:2px solid #ccc;
+    border-top:2px solid #ccc;
+    td
+    {
+      background-color: #333;
+      padding: .5em .25em;
+      font-size: 2em;
+      color:$active-catagory;
+      border-bottom:1px solid red;
+      border-top:2px solid #222;
+    }
+  }
+}
+
+@-webkit-keyframes jumpUp {
+    0% 
+    {
+        bottom: -10em;
+    }
+    30% 
+    {
+        bottom: -10em;
+    }
+    40%
+    {
+        bottom: 0em;
+    }
+
+    90%
+    {
+        bottom: 0em;
+    }
+    100% 
+    {
+        bottom: -10em;
+    }
+}
+@-moz-keyframes jumpUp {
+    0% 
+    {
+        bottom: -10em;
+    }
+    30% 
+    {
+        bottom: -10em;
+    }
+    40%
+    {
+        bottom: 0em;
+    }
+
+    90%
+    {
+        bottom: 0em;
+    }
+    100% 
+    {
+        bottom: -10em;
+    }
+}
+
+.ad-content {
+    -moz-animation-name: jumpUp;
+    -moz-animation-duration: 6s;
+    -moz-animation-timing-function: ease-in;
+    -webkit-animation-name: jumpUp;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 6s;
+}
+
+.ad-content
+{
+
+  position:fixed;
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid $background;
+  font-weight: bold;
+  background-color: blue;
+  bottom: -10em;
+  
+  a
+  {
+    display: block;
+    color: $link;
+  }
+}
+
+
+
+.back-button
+{
+  position:fixed;
+  bottom: 0em;
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid $background;
+  font-size: .5em;
+  font-weight: bold;
+  background-color: $static;
+  
+  a
+  {
+    display: block;
+    color: $link;
+    padding: 1.5em 0;
+  }
+}
+
+
+
+.level-3
+{
+  padding-top: 36px;
+}
+
+@media (min-width: 768px){
+  
+  .global-nav
+  {
+    ul
+    {
+      li
+      {
+        font-size: 1.75em;
+      }
+    }
+  }
+
+  .sub
+  {
+    ul
+    {
+     
+      li
+      {
+        font-size: 1em;
+      }
+    }
+  }
+
+  .sub-level-3
+  {
+    ul
+    {
+      li
+      {
+        font-size: 1em;
+      }
+    }
+  }
+
+  .menu-content-header
+  {
+    margin-top: 111px;
+
+      .sup-menu-info
+  {
+    p
+    {
+      font-size: 1em;
+    }
+  }
+
+  .item-style-select
+  {
+    background-color: #222222;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+
+  select
+  {
+    background-color: $choose-catagory;
+    font-weight: bold;
+    border: none;
+    border-left: 1px solid $background;
+    border-right: 1px solid $background;
+    border-bottom: 3px solid $background;
+    color: $text;
+    padding-top: 1em;
+
+    option
+    {
+      border: none;
+      border-bottom: 1px solid $background;
+      padding: .75em 0 .25em 0;
+    }
+  }
+}
+
+  table
+  {
+    thead
+    {
+      th
+      {
+        font-size: 1em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+      }
+    }
+
+    tbody
+    {
+      td
+      {
+        font-size: 1.2em;
+        line-height: 1.2em;
+      }
+
+      img
+      {
+        width: 100%;
+        padding: .5em 2.5em;
+      }
+    }
+  }
+}
+
+.food-item-page
+{
+  margin-top: 120px;
+
+  h3
+  {
+    color: $text;
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  h4
+  {
+    color: $active-catagory;
+    font-weight: bold;
+  }
+
+  p
+  {
+    color: $text;
+  }
+
+  ul
+  {
+    color: $text;
+  }
+
+  .food-item-options
+  {
+    color: $static;
+    font-weight: bold;
+  }
+
+}
+
+.allergies
+{
+  position: fixed;
+  bottom: 4em;
+  a
+  {
+    background-color: $choose-catagory;
+    color: #ffffff;
+    padding: .3em .8em;
+    font-size: 1.5em;
+    border-radius: .8em;
+    font-weight: 100;
+    }
+}
+
+  .back-button
+  {
+    border-top: 2px solid $background;
+    font-size: 1em;
+    text-align: 
+
+    {
+      display: block;
+      padding: .9em 0;
+    }
+  }
+
+  .level-3
+  {
+    padding-top: 50px;
+  }
+}
+  
+

@@ -1,0 +1,296 @@
+/* Client Facing Color Styles */
+
+/* ====== Color Variables ====== */
+
+/* For Red Backgrounds, Links */
+$red: #ee3c2d;
+
+/* For Footer Background */
+$darkgray: #333333;
+
+/* For Header text, bolded text */
+$medgray: #666666;
+
+/* For body paragraph text */
+$lightgray: #777777;
+
+/* For link buttons with on colored backgrounds */
+$lightestgray: #dddddd;
+
+/* For text with color backgrounds text */
+$white: #ffffff;
+
+$green: #22b63c;
+
+/* HEADER COLOR */
+
+.top
+{
+	background: $red;
+	color: $white;
+
+	a
+	{
+		color: $white;
+	}
+
+
+
+}
+
+.middle
+{
+	h2
+	{
+		background: $red;
+		color: $white;
+
+		span
+		{
+			a
+			{
+				background: $white;
+				color: $red;
+			}
+		}
+	}
+
+	.section-body
+	{
+		background: $lightestgray;
+	}
+
+	h3
+	{
+		color: $red;
+	}
+
+	.form-button
+	{
+		background: $red;
+		color: #fff;
+	}
+
+	p
+	{
+		color: $lightgray
+	}
+
+	.help-content
+	{
+		h2
+		{
+			color: $medgray;
+			background: none;
+		}
+
+		p
+		{
+			color: $lightgray;
+		}
+
+		a
+		{
+			color: $red;
+		}
+	}
+
+	.profile-section
+	{
+
+		background: $medgray;
+
+		.input-buttons
+		{
+			span
+			{
+				color: $lightgray;
+			}
+		}
+
+		.edit-clients-button
+		{
+			color: $red;
+		}
+
+		p
+		{
+			color: $lightestgray;
+		}
+
+		h3
+		{
+			color: $white;
+		}
+
+		.profile-section-item
+		{
+			background: $lightestgray;
+
+			h4
+			{
+				color: $medgray;
+			}
+
+			a
+			{
+				color: $red;
+			}
+
+			span
+			{
+				color: $medgray;
+			}
+
+			.approved-button
+			{
+				color: white;
+				background: $green;
+				border-radius: .25em;
+
+			}
+
+			.not-approved-button
+			{
+				color: $white;
+				background: $lightgray;
+				border-radius: .25em;
+
+
+			}
+
+
+			hr
+			{
+				color: $lightestgray;
+			}
+		}
+
+		.upload-project-file
+		{
+			background: $white;
+			padding: 1em;
+			p
+			{
+				color: $red;
+			}
+		}
+
+		.document-name
+		{	
+
+			a
+			{
+				background: $red;
+				color: $white;
+			}
+
+			a:hover
+			{
+			color: $lightestgray;
+			}
+		}
+
+		#expand-button
+		{
+			background: $red;
+			color: #ffffff;
+		}
+	}
+
+	.archived-section
+	{
+		.archived-titles
+		{
+			ul
+			{
+				color: $medgray;
+			}
+		}
+
+		a
+		{
+			color: $red;
+		}
+	}
+}
+
+.bottom
+{
+	background: $darkgray;
+
+
+	h4
+	{
+		color: $red;
+	}
+
+	a
+	{
+		color: $lightestgray
+	}
+
+	a:hover
+	{
+		text-decoration: underline;
+	}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	body
+	{
+		background: $lightestgray;
+	}
+
+	.middle
+	{
+		h2
+		{
+			background: $lightestgray;
+			color: $medgray;
+		}
+		.profile-section
+		{
+			.profile-section-item
+			{
+				background: $white;
+			}
+		}
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px){
+
+	body
+	{
+		background: $lightestgray;
+	}
+
+	.middle
+	{
+		h2
+		{
+			background: $lightestgray;
+			color: $medgray;
+		}
+		.profile-section
+		{
+			.profile-section-item
+			{
+				background: $white;
+			}
+		}
+	}
+}

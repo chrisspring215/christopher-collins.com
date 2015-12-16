@@ -1,0 +1,2195 @@
+/* FONT Vairables */
+/* COLOR Vairables */
+/* BODY BACKGROUND */
+/* line 23, ../scss/layout.scss */
+body {
+  background: #222222;
+}
+
+/* Row Colors */
+/* line 29, ../scss/layout.scss */
+.darkest {
+  background: #222222;
+}
+
+/* line 34, ../scss/layout.scss */
+.blue {
+  background: #3e89be;
+}
+
+/* line 39, ../scss/layout.scss */
+.white {
+  background: white;
+}
+
+/* line 45, ../scss/layout.scss */
+* {
+  font-family: "Muli", sans-serif;
+}
+
+/*
+=============================================
+Header Styles Controled by Foundation Classes 
+=============================================
+*/
+/* LARGE SCREEN HEADER STYLE */
+/* line 62, ../scss/layout.scss */
+.hide-for-small header {
+  padding: .5em 0;
+}
+/* line 66, ../scss/layout.scss */
+.hide-for-small header h2 {
+  color: #dc6122;
+  font-family: "Bevan", cursive;
+  font-weight: normal;
+}
+/* line 73, ../scss/layout.scss */
+.hide-for-small header .utility-nav {
+  text-align: right;
+}
+/* line 78, ../scss/layout.scss */
+.hide-for-small header a {
+  color: #3e89be;
+}
+
+/* SMALL SCREEN HEADER STYLE */
+/* line 88, ../scss/layout.scss */
+.hide-for-medium-up header {
+  padding: .5em 0 0 0;
+}
+/* line 92, ../scss/layout.scss */
+.hide-for-medium-up header h2 {
+  color: #dc6122;
+  font-family: "Bevan", cursive;
+  font-weight: normal;
+  font-size: 1em;
+}
+/* line 99, ../scss/layout.scss */
+.hide-for-medium-up header a {
+  font-size: 1em;
+  float: right;
+  margin-left: .75em;
+  color: #3e89be;
+  font-weight: normal;
+}
+
+/*
+============================================
+Large and Small Screen Styles break at 48ems
+============================================
+*/
+/* ================= Small Screen =================*/
+@media only screen and (max-width: 48em) {
+  /* line 122, ../scss/layout.scss */
+  article {
+    color: #666666;
+    margin: 0 0 1em 0;
+    /*
+    IMPORTS STYLES FOR LANDING PAGE
+    SMALL SCREEN ONLY
+    */
+    /* LANDING PAGE SMALL SCREEN STYLES */
+    /*
+    IMPORTS STYLES FOR AGGRAGATOR PAGE
+    SMALL SCREEN ONLY
+    */
+    /* Aggragator SMALL SCREEN Page Styles ===========================================*/
+    /*
+    IMPORTS STYLES FOR PROFILE PAGE
+    SMALL SCREEN ONLY
+    */
+    /* PROFILE PAGE STYLES LARGE =========================*/
+    /*
+    IMPORTS STYLES FOR PROFILE PAGE
+    SMALL SCREEN ONLY
+    */
+    /* PROFILE PAGE STYLES LARGE =========================*/
+  }
+  /* line 127, ../scss/layout.scss */
+  article a {
+    color: #3e89be;
+  }
+  /* line 4, ../scss/landing-page-styles-small.scss */
+  article .page-title {
+    background: #dc6122;
+    margin-bottom: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
+  /* line 12, ../scss/landing-page-styles-small.scss */
+  article .page-title h1 {
+    font-size: 1.5em;
+    color: white;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 23, ../scss/landing-page-styles-small.scss */
+  article h2 {
+    padding: 0;
+  }
+  /* line 28, ../scss/landing-page-styles-small.scss */
+  article p {
+    font-size: 1.25em;
+    line-height: 1.3;
+    margin-bottom: 1.25em;
+  }
+  /* line 38, ../scss/landing-page-styles-small.scss */
+  article .promo-video video {
+    width: 100%;
+    height: auto;
+  }
+  /* line 44, ../scss/landing-page-styles-small.scss */
+  article .promo-video video img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 51, ../scss/landing-page-styles-small.scss */
+  article .promo-video p {
+    font-size: .60em;
+  }
+  /* line 57, ../scss/landing-page-styles-small.scss */
+  article .large-call-to-action {
+    text-align: center;
+  }
+  /* line 61, ../scss/landing-page-styles-small.scss */
+  article .large-call-to-action a {
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    margin: 0;
+  }
+  /* line 70, ../scss/landing-page-styles-small.scss */
+  article .large-call-to-action div {
+    font-size: 1.75em;
+    color: white;
+    background: #3e89be;
+    padding: .25em 0;
+    margin-top: .25em;
+  }
+  /* line 3, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-type-nav {
+    margin-top: 1em;
+  }
+  /* line 6, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-type-nav a {
+    padding: .4em .4em;
+    text-align: center;
+    font-size: .8em;
+  }
+  /* line 13, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-type-nav .active-aggregator-type-nav-button {
+    color: #333333;
+    background: #dc6122;
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: .45em;
+  }
+  /* line 24, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-type-nav .inactive-aggregator-type-nav-button {
+    color: #eeeeee;
+    background: #3e89be;
+    margin-bottom: .2em;
+    border: 2px solid white;
+    border-radius: .45em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 36, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-title-box {
+    background: #dc6122;
+    padding-top: 1em;
+  }
+  /* line 41, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-title-box h1 {
+    color: #333333;
+    font-family: "Bevan", cursive;
+    margin-bottom: 0;
+    font-size: 1.75em;
+  }
+  /* line 49, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-title-box p {
+    font-size: .9em;
+  }
+  /* line 54, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-title-box .aggregator-description {
+    color: white;
+    margin-bottom: .5em;
+  }
+  /* line 61, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-title-box a {
+    margin-bottom: 1em;
+    background: #333333;
+    color: #3e89be;
+    padding: .2em .4em;
+    border-radius: .25em;
+    text-align: center;
+  }
+  /* line 72, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-project-sort {
+    background: #eeeeee;
+    padding-top: .4em;
+    padding-bottom: .4em;
+    text-align: center;
+    font-size: .8em;
+  }
+  /* line 80, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-project-sort .project-sort-label {
+    padding: .5em 0em;
+    border: 3px solid #eeeeee;
+  }
+  /* line 86, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-project-sort .active {
+    background: #dc6122;
+    color: white;
+    border-radius: .45em;
+  }
+  /* line 93, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-project-sort .project-sort-item {
+    padding: .5em 0em;
+    border: 3px solid #eeeeee;
+  }
+  /* line 99, ../scss/aggragator-page-styles-small.scss */
+  article .aggregator-project-sort .inactive {
+    background: #666666;
+    color: #eeeeee;
+    border-radius: .45em;
+  }
+  /* line 110, ../scss/aggragator-page-styles-small.scss */
+  article .project-list .project-wrapper {
+    font-family: "Muli", sans-serif;
+    border-top: 1px solid #eeeeee;
+    padding-top: 1.5em;
+    padding-bottom: 2.25em;
+    color: #666666;
+  }
+  /* line 121, ../scss/aggragator-page-styles-small.scss */
+  article .project-list .project-content h2 {
+    margin: 0;
+    color: #666666;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    font-size: 1.5em;
+  }
+  /* line 130, ../scss/aggragator-page-styles-small.scss */
+  article .project-list .project-content p {
+    margin-bottom: .75em;
+    font-size: .9em;
+  }
+  /* line 136, ../scss/aggragator-page-styles-small.scss */
+  article .project-list .project-content .byline {
+    margin-bottom: 1em;
+    font-size: .9em;
+  }
+  /* line 141, ../scss/aggragator-page-styles-small.scss */
+  article .project-list .project-content .byline span {
+    color: #dc6122;
+  }
+  /* line 146, ../scss/aggragator-page-styles-small.scss */
+  article .project-list .project-content .byline .submission-date > time {
+    color: #666666;
+  }
+  /* line 151, ../scss/aggragator-page-styles-small.scss */
+  article .project-list .project-content .byline .submission-date > time:after {
+    content: '\00a0';
+  }
+  /* line 155, ../scss/aggragator-page-styles-small.scss */
+  article .project-list .project-content .byline .submission-date > time:before {
+    content: '\00a0';
+  }
+  /* line 162, ../scss/aggragator-page-styles-small.scss */
+  article .project-list .project-interaction-nav {
+    text-align: center;
+    margin-top: .5em;
+  }
+  /* line 167, ../scss/aggragator-page-styles-small.scss */
+  article .project-list .project-interaction-nav a {
+    padding: 5px 0;
+    font-size: .8em;
+    text-align: center;
+    background: #3e89be;
+    color: #eeeeee;
+    border: 2px solid white;
+    margin-bottom: .25em;
+    border-radius: .45em;
+  }
+  /* line 186, ../scss/aggragator-page-styles-small.scss */
+  article .load-more-projects-button {
+    background: #3e89be;
+    color: #eeeeee;
+    font-size: 1em;
+    padding: .25em .5em;
+    border-radius: .25em;
+  }
+  /* line 4, ../scss/profile-page-styles-small.scss */
+  article .profile-page-content {
+    font-family: "Muli", sans-serif;
+  }
+  /* line 9, ../scss/profile-page-styles-small.scss */
+  article .profile-page-header {
+    background: #dc6122;
+  }
+  /* line 13, ../scss/profile-page-styles-small.scss */
+  article .profile-page-header h1 {
+    color: white;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  /* line 22, ../scss/profile-page-styles-small.scss */
+  article .profile-page-section-header {
+    background: #666666;
+    margin-bottom: 1em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+  }
+  /* line 29, ../scss/profile-page-styles-small.scss */
+  article .profile-page-section-header h3 {
+    color: white;
+    margin-bottom: 0;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+  }
+  /* line 38, ../scss/profile-page-styles-small.scss */
+  article .profile-bio-section {
+    margin-bottom: 2em;
+  }
+  /* line 43, ../scss/profile-page-styles-small.scss */
+  article .profile-bio-section h4 {
+    font-size: 1em;
+    font-weight: normal;
+    color: #666666;
+    margin-bottom: 0;
+  }
+  /* line 51, ../scss/profile-page-styles-small.scss */
+  article .profile-bio-section p {
+    font-size: .90em;
+    color: #dc6122;
+    margin-bottom: .25em;
+  }
+  /* line 64, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .activity-selector a {
+    text-align: center;
+    font-size: .80em;
+    background: #3e89be;
+    color: #eeeeee;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 76, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .activity-selector .active-activity-selector {
+    background: #333333;
+    color: #dc6122;
+    margin-bottom: 2em;
+  }
+  /* line 85, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .activity-desc {
+    margin-bottom: 1em;
+  }
+  /* line 90, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item {
+    border-top: 1px solid #eeeeee;
+    padding-top: 2em;
+    padding-bottom: 2.25em;
+  }
+  /* line 96, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item h4 {
+    margin-bottom: 0;
+  }
+  /* line 101, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item h4 > a {
+    font-family: "Bevan", cursive;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #3e89be;
+    margin-bottom: 0;
+  }
+  /* line 111, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item h5 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+  }
+  /* line 119, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item .activity-item-nav a {
+    color: white;
+    font-size: .80em;
+    background: #999999;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid white;
+  }
+  /* line 131, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item .byline {
+    margin-bottom: 1em;
+  }
+  /* line 135, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item .byline p {
+    color: #666666;
+    font-size: 1em;
+  }
+  /* line 141, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item .byline span {
+    color: #dc6122;
+  }
+  /* line 147, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item p {
+    font-size: 1em;
+    margin-bottom: .75em;
+  }
+  /* line 158, ../scss/profile-page-styles-small.scss */
+  article .profile-page-contact-section h4 {
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #dc6122;
+    margin-bottom: 0;
+  }
+  /* line 166, ../scss/profile-page-styles-small.scss */
+  article .profile-page-contact-section p {
+    font-size: 1em;
+    color: #dc6122;
+    margin-bottom: .75em;
+  }
+  /* line 4, ../scss/profile-page-styles-small.scss */
+  article .profile-page-content {
+    font-family: "Muli", sans-serif;
+  }
+  /* line 9, ../scss/profile-page-styles-small.scss */
+  article .profile-page-header {
+    background: #dc6122;
+  }
+  /* line 13, ../scss/profile-page-styles-small.scss */
+  article .profile-page-header h1 {
+    color: white;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  /* line 22, ../scss/profile-page-styles-small.scss */
+  article .profile-page-section-header {
+    background: #666666;
+    margin-bottom: 1em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+  }
+  /* line 29, ../scss/profile-page-styles-small.scss */
+  article .profile-page-section-header h3 {
+    color: white;
+    margin-bottom: 0;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+  }
+  /* line 38, ../scss/profile-page-styles-small.scss */
+  article .profile-bio-section {
+    margin-bottom: 2em;
+  }
+  /* line 43, ../scss/profile-page-styles-small.scss */
+  article .profile-bio-section h4 {
+    font-size: 1em;
+    font-weight: normal;
+    color: #666666;
+    margin-bottom: 0;
+  }
+  /* line 51, ../scss/profile-page-styles-small.scss */
+  article .profile-bio-section p {
+    font-size: .90em;
+    color: #dc6122;
+    margin-bottom: .25em;
+  }
+  /* line 64, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .activity-selector a {
+    text-align: center;
+    font-size: .80em;
+    background: #3e89be;
+    color: #eeeeee;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 76, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .activity-selector .active-activity-selector {
+    background: #333333;
+    color: #dc6122;
+    margin-bottom: 2em;
+  }
+  /* line 85, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .activity-desc {
+    margin-bottom: 1em;
+  }
+  /* line 90, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item {
+    border-top: 1px solid #eeeeee;
+    padding-top: 2em;
+    padding-bottom: 2.25em;
+  }
+  /* line 96, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item h4 {
+    margin-bottom: 0;
+  }
+  /* line 101, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item h4 > a {
+    font-family: "Bevan", cursive;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #3e89be;
+    margin-bottom: 0;
+  }
+  /* line 111, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item h5 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+  }
+  /* line 119, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item .activity-item-nav a {
+    color: white;
+    font-size: .80em;
+    background: #999999;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid white;
+  }
+  /* line 131, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item .byline {
+    margin-bottom: 1em;
+  }
+  /* line 135, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item .byline p {
+    color: #666666;
+    font-size: 1em;
+  }
+  /* line 141, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item .byline span {
+    color: #dc6122;
+  }
+  /* line 147, ../scss/profile-page-styles-small.scss */
+  article .profile-activity-section .profile-page-activity-item p {
+    font-size: 1em;
+    margin-bottom: .75em;
+  }
+  /* line 158, ../scss/profile-page-styles-small.scss */
+  article .profile-page-contact-section h4 {
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #dc6122;
+    margin-bottom: 0;
+  }
+  /* line 166, ../scss/profile-page-styles-small.scss */
+  article .profile-page-contact-section p {
+    font-size: 1em;
+    color: #dc6122;
+    margin-bottom: .75em;
+  }
+
+  /* line 159, ../scss/layout.scss */
+  footer {
+    padding-top: 3em;
+    padding-bottom: 2em;
+    text-align: center;
+  }
+  /* line 165, ../scss/layout.scss */
+  footer a {
+    color: #3e89be;
+  }
+
+  /* line 173, ../scss/layout.scss */
+  .copyright p {
+    color: #666666;
+    text-align: center;
+  }
+}
+/*============== Big Screen ===================*/
+/*
+IMPORTS STYLES FOR POP-UP Log-IN Window
+LARRGE SCREEN ONLY
+*/
+/* line 3, ../scss/log-in.scss */
+#popupbox {
+  position: absolute;
+  z-index: 9;
+  /* visibility: hidden; */
+  background: black;
+}
+/* line 13, ../scss/log-in.scss */
+#popupbox .dimmer {
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: .75;
+}
+/* line 24, ../scss/log-in.scss */
+#popupbox .inner-border {
+  border: 3px solid #3e89be;
+  border-radius: 3px;
+  text-align: left;
+  font-size: 1em;
+  color: #666666;
+  background: white;
+  position: fixed;
+  right: 3em;
+  top: 3em;
+  padding: 3em;
+  width: 43em;
+}
+/* line 38, ../scss/log-in.scss */
+#popupbox .inner-border a {
+  color: #3e89be;
+}
+/* line 43, ../scss/log-in.scss */
+#popupbox .inner-border .form-title {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+/* line 49, ../scss/log-in.scss */
+#popupbox .inner-border .form-title span {
+  font-family: "Bevan", cursive;
+  font-size: 1em;
+}
+/* line 56, ../scss/log-in.scss */
+#popupbox .inner-border .login-form-header {
+  color: #dc6122;
+  font-size: 1.5em;
+  font-family: "Bevan", cursive;
+}
+/* line 63, ../scss/log-in.scss */
+#popupbox .inner-border input, #popupbox .inner-border img {
+  background: white;
+  border: 2px solid #dc6122;
+  margin-bottom: .5em;
+}
+/* line 70, ../scss/log-in.scss */
+#popupbox .inner-border img {
+  width: 12.72em;
+}
+/* line 75, ../scss/log-in.scss */
+#popupbox .inner-border .login-form-submit-button {
+  border: none;
+  background: #3e89be;
+  color: #eeeeee;
+  padding: .2em .6em;
+}
+/* line 83, ../scss/log-in.scss */
+#popupbox .inner-border .login-form {
+  padding-right: 3em;
+  float: left;
+  margin-right: 3em;
+  border-right: 2px solid #dc6122;
+}
+/* line 90, ../scss/log-in.scss */
+#popupbox .inner-border .create-account-form {
+  float: right;
+}
+/* line 95, ../scss/log-in.scss */
+#popupbox .inner-border .close-form-button {
+  margin-top: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 48em) {
+  /* line 196, ../scss/layout.scss */
+  .global-nav {
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
+  /* line 201, ../scss/layout.scss */
+  .global-nav a {
+    color: white;
+    font-size: 1em;
+    padding: 0;
+    margin: 0 1em 0 0;
+  }
+
+  /* line 215, ../scss/layout.scss */
+  article {
+    color: #666666;
+    margin: 2em 0 4em 0;
+    /*
+    IMPORTS STYLES FOR LANDING PAGE
+    LARRGE SCREEN ONLY
+    */
+    /* LANDING PAGE STYLES LARGE========================*/
+    /*
+    IMPORTS STYLES FOR AGGRAGATOR PAGES
+    LARRGE SCREEN ONLY
+    */
+    /* 
+    	AGGRAGATOR PAGE STYLES
+    */
+    /* 
+    IMPORTS STYLES FOR PROFILE PAGES
+    LARRGE SCREEN ONLY
+    */
+    /* PROFILE PAGE STYLES LARGE =========================*/
+    /* 
+    IMPORTS STYLES FOR PROJECT PAGES
+    LARRGE SCREEN ONLY
+    */
+    /* 
+    IMPORTS STYLES FOR PROJECT PAGES
+    LARRGE SCREEN ONLY
+    */
+    /* 
+    IMPORTS STYLES FOR CREATE A PROJECT PAGES
+    LARRGE SCREEN ONLY
+    */
+    /* CREATE A PROJECT STYLES LARGE========================*/
+    /* 
+    IMPORTS STYLES FOR PROJECT PAGES
+    LARRGE SCREEN ONLY
+    */
+    /* 
+    IMPORTS STYLES FOR ABOUT PAGE
+    LARRGE SCREEN ONLY
+    */
+    /* ABOUT PAGE STYLES LARGE========================*/
+  }
+  /* line 220, ../scss/layout.scss */
+  article a {
+    color: #3e89be;
+  }
+  /* line 4, ../scss/landing-page-styles-large.scss */
+  article .page-title {
+    background: #dc6122;
+    margin-bottom: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
+  /* line 12, ../scss/landing-page-styles-large.scss */
+  article .page-title h1 {
+    color: white;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 22, ../scss/landing-page-styles-large.scss */
+  article h2 {
+    padding: 0;
+  }
+  /* line 27, ../scss/landing-page-styles-large.scss */
+  article p {
+    font-size: 1.25em;
+    line-height: 1.3;
+    margin-bottom: 1.25em;
+  }
+  /* line 37, ../scss/landing-page-styles-large.scss */
+  article .promo-video video {
+    width: 100%;
+    height: auto;
+  }
+  /* line 43, ../scss/landing-page-styles-large.scss */
+  article .promo-video video img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 50, ../scss/landing-page-styles-large.scss */
+  article .promo-video p {
+    font-size: .80em;
+  }
+  /* line 56, ../scss/landing-page-styles-large.scss */
+  article .large-call-to-action {
+    text-align: center;
+  }
+  /* line 60, ../scss/landing-page-styles-large.scss */
+  article .large-call-to-action a {
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    margin: 0;
+  }
+  /* line 69, ../scss/landing-page-styles-large.scss */
+  article .large-call-to-action div {
+    font-size: 2.5em;
+    color: white;
+    background: #3e89be;
+    padding: .25em 0;
+    margin-top: .25em;
+  }
+  /* line 8, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-type-nav a {
+    padding: .4em .4em;
+    text-align: center;
+  }
+  /* line 15, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-type-nav .active-aggregator-type-nav-button, article .aggregator-type-nav .inactive-aggregator-type-nav-button {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+  }
+  /* line 22, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-type-nav .active-aggregator-type-nav-button {
+    color: white;
+    background: #dc6122;
+    padding-bottom: .6em;
+    margin-bottom: -1px;
+  }
+  /* line 30, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-type-nav .inactive-aggregator-type-nav-button {
+    color: white;
+    background: #3e89be;
+    border-bottom: 3px solid white;
+  }
+  /* line 38, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-title-box {
+    background: #dc6122;
+  }
+  /* line 42, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-title-box h1 {
+    color: #333333;
+    font-family: "Bevan", cursive;
+    margin-bottom: 0;
+  }
+  /* line 49, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-title-box .aggregator-description {
+    color: white;
+    margin-bottom: .5em;
+  }
+  /* line 56, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-title-box a {
+    color: #eeeeee;
+    background: #3e89be;
+    border-radius: .25em;
+    text-align: center;
+    margin: 0 1em 1em 1em;
+    padding-top: .2em;
+  }
+  /* line 67, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-new-project-box {
+    height: 182px;
+    background: #333333;
+  }
+  /* line 71, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-new-project-box h1 {
+    font-family: "Bevan", cursive;
+    margin-bottom: 0;
+    font-size: 2em;
+    margin-top: .75em;
+  }
+  /* line 80, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-new-project-box .aggregator-description {
+    color: #eeeeee;
+    margin-bottom: .5em;
+  }
+  /* line 87, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-new-project-box a {
+    margin-bottom: 1em;
+    background: #3e89be;
+    padding: .2em .4em;
+    border-radius: .25em;
+    text-align: center;
+    color: #eeeeee;
+  }
+  /* line 98, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-project-sort {
+    margin-top: .5em;
+    background: white;
+    padding-top: .4em;
+    padding-bottom: .4em;
+    text-align: center;
+    border-top: 1px solid #eeeeee;
+  }
+  /* line 107, ../scss/aggragator-page-styles-large.scss */
+  article .aggregator-project-sort .active {
+    color: #dc6122;
+  }
+  /* line 116, ../scss/aggragator-page-styles-large.scss */
+  article .project-list .project-wrapper {
+    font-family: "Muli", sans-serif;
+    border-top: 1px solid #eeeeee;
+    padding-top: 2em;
+    padding-bottom: 2.25em;
+    color: #666666;
+  }
+  /* line 127, ../scss/aggragator-page-styles-large.scss */
+  article .project-list .project-content .aggragator-page-project-title > a {
+    margin: 0;
+    color: #3e89be;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+  }
+  /* line 135, ../scss/aggragator-page-styles-large.scss */
+  article .project-list .project-content .aggragator-page-project-title {
+    margin-bottom: 0em;
+  }
+  /* line 139, ../scss/aggragator-page-styles-large.scss */
+  article .project-list .project-content .deliverable-compleation {
+    display: inline;
+    margin-top: 0;
+  }
+  /* line 144, ../scss/aggragator-page-styles-large.scss */
+  article .project-list .project-content .deliverable-compleation a > img {
+    width: 30px;
+    margin-right: .5em;
+    margin-bottom: 1em;
+  }
+  /* line 151, ../scss/aggragator-page-styles-large.scss */
+  article .project-list .project-content p {
+    margin-bottom: 1em;
+  }
+  /* line 156, ../scss/aggragator-page-styles-large.scss */
+  article .project-list .project-content .byline {
+    margin-bottom: 1em;
+  }
+  /* line 160, ../scss/aggragator-page-styles-large.scss */
+  article .project-list .project-content .byline span {
+    color: #dc6122;
+  }
+  /* line 169, ../scss/aggragator-page-styles-large.scss */
+  article .project-list .project-interaction-nav a {
+    margin-right: .5em;
+    padding: .025em .2em;
+    text-align: left;
+  }
+  /* line 182, ../scss/aggragator-page-styles-large.scss */
+  article .load-more-projects-button {
+    background: #3e89be;
+    color: white;
+    font-size: 1em;
+    padding: .25em .5em;
+    border-radius: .25em;
+  }
+  /* line 4, ../scss/profile-page-styles-large.scss */
+  article .profile-page-content {
+    font-family: "Muli", sans-serif;
+  }
+  /* line 9, ../scss/profile-page-styles-large.scss */
+  article .profile-page-header {
+    background: #dc6122;
+    margin-bottom: 1em;
+  }
+  /* line 14, ../scss/profile-page-styles-large.scss */
+  article .profile-page-header h1 {
+    color: white;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  /* line 23, ../scss/profile-page-styles-large.scss */
+  article .profile-page-section-header {
+    background: #666666;
+    margin-bottom: 1em;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+  }
+  /* line 30, ../scss/profile-page-styles-large.scss */
+  article .profile-page-section-header h3 {
+    color: white;
+    margin-bottom: 0;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+  }
+  /* line 41, ../scss/profile-page-styles-large.scss */
+  article .profile-bio-section h4 {
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #666666;
+    margin-bottom: 0;
+  }
+  /* line 49, ../scss/profile-page-styles-large.scss */
+  article .profile-bio-section p {
+    font-size: 1em;
+    color: #dc6122;
+    margin-bottom: .75em;
+  }
+  /* line 62, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .activity-selector a {
+    background: #3e89be;
+    color: #eeeeee;
+    text-align: center;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 73, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .activity-selector .active-activity-selector {
+    background: #333333;
+    color: #dc6122;
+    margin-bottom: 2em;
+  }
+  /* line 82, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .activity-desc {
+    margin-bottom: 1em;
+  }
+  /* line 87, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item {
+    border-top: 1px solid white;
+    padding-top: 2em;
+    padding-bottom: 2.25em;
+    background: #eeeeee;
+    /* =================== */
+    /* PROJECT PAGE STYLES */
+    /* =================== */
+    /* ======================= */
+    /* END PROJECT PAGE STYLES */
+    /* ======================= */
+    /* ==================== */
+    /* COMMENTS PAGE STYLES */
+    /* ==================== */
+    /* ======================== */
+    /* END COMMENTS PAGE STYLES */
+    /* ======================== */
+    /* ===================== */
+    /* FOLLOWING PAGE STYLES */
+    /* ===================== */
+    /* ========================= */
+    /* END FOLLOWING PAGE STYLES */
+    /* ========================= */
+    /* ================== */
+    /* GROUPS PAGE STYLES */
+    /* ================== */
+    /* ====================== */
+    /* END GROUPS PAGE STYLES */
+    /* ====================== */
+  }
+  /* line 94, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item h4 {
+    margin-bottom: 0;
+  }
+  /* line 99, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item h4 > a {
+    font-family: "Bevan", cursive;
+    font-size: 1em;
+    font-weight: normal;
+    color: #3e89be;
+    margin-bottom: 0;
+  }
+  /* line 113, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .activity-item-projects-nav a {
+    color: white;
+    font-size: 1em;
+    background: #999999;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #eeeeee;
+  }
+  /* line 125, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .byline {
+    margin-bottom: 1em;
+  }
+  /* line 129, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .byline p {
+    color: #666666;
+    font-size: 1em;
+  }
+  /* line 135, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .byline span {
+    color: #dc6122;
+  }
+  /* line 141, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item p {
+    font-size: 1.25em;
+    margin-bottom: .75em;
+  }
+  /* line 154, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .comments-page-thread-topic {
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.1em;
+    font-style: italic;
+  }
+  /* line 162, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .comments-page-thread-topic a {
+    color: #dc6122;
+  }
+  /* line 168, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .comments-page-thread-topic:before, article .profile-activity-section .profile-page-activity-item .comments-page-thread-topic:after {
+    content: '\0022';
+    color: #dc6122;
+  }
+  /* line 174, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .profile-page-comment-date {
+    color: #dc6122;
+  }
+  /* line 178, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .profile-page-comment-date:before {
+    content: 'on: ';
+    color: #666666;
+  }
+  /* line 184, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .user-comment {
+    background: #cccccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+  /* line 189, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .user-comment span {
+    background: #eeeeee;
+    padding: .1em .22em;
+    font-size: .80em;
+  }
+  /* line 195, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .user-comment .comment-content {
+    color: #666666;
+    font-size: 1em;
+    margin-top: .5em;
+    font-style: italic;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: .5em;
+  }
+  /* line 207, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .user-comment .view-full-comment-link {
+    text-align: left;
+    color: #3e89be;
+    padding-left: 1em;
+    margin-bottom: 1em;
+  }
+  /* line 213, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .user-comment .comment-content:before {
+    content: '\0022';
+  }
+  /* line 218, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .user-comment .comment-content:after {
+    content: '\0022';
+  }
+  /* line 222, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .user-comment .comment-id {
+    color: #666666;
+    margin-left: 1em;
+  }
+  /* line 227, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .user-comment .comment-id > a {
+    margin-bottom: 1em;
+    color: #dc6122;
+  }
+  /* line 232, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .user-comment .comment-id:after {
+    content: ' wrote:';
+  }
+  /* line 238, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .activity-comment-nav-large {
+    margin-left: 1em;
+  }
+  /* line 241, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .activity-comment-nav-large a {
+    margin-right: .75em;
+  }
+  /* line 254, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .following-item-byline {
+    margin-bottom: 1em;
+  }
+  /* line 258, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .following-item-byline p {
+    color: #666666;
+    font-size: 1em;
+  }
+  /* line 264, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .following-item-byline span > a {
+    color: #dc6122;
+  }
+  /* line 272, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .activity-item-following-nav a {
+    color: white;
+    font-size: 1em;
+    background: #999999;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #eeeeee;
+  }
+  /* line 290, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .profile-page-group-desc {
+    font-weight: normal;
+    line-height: 1.3em;
+  }
+  /* line 298, ../scss/profile-page-styles-large.scss */
+  article .profile-activity-section .profile-page-activity-item .activity-group-nav-large a {
+    margin-right: .75em;
+  }
+  /* line 319, ../scss/profile-page-styles-large.scss */
+  article .profile-page-contact-section h4 {
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #dc6122;
+    margin-bottom: 0;
+  }
+  /* line 327, ../scss/profile-page-styles-large.scss */
+  article .profile-page-contact-section p {
+    font-size: 1em;
+    color: #dc6122;
+    margin-bottom: .75em;
+  }
+  /* line 2, ../scss/project-page-styles-large.scss */
+  article .project-page-content {
+    font-family: "Muli", sans-serif;
+  }
+  /* line 7, ../scss/project-page-styles-large.scss */
+  article .lead {
+    font-style: italic;
+  }
+  /* line 12, ../scss/project-page-styles-large.scss */
+  article .project-page-header {
+    background: #dc6122;
+    margin-bottom: 1em;
+  }
+  /* line 17, ../scss/project-page-styles-large.scss */
+  article .project-page-header h1 {
+    color: white;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  /* line 26, ../scss/project-page-styles-large.scss */
+  article .project-section-selector {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+  }
+  /* line 32, ../scss/project-page-styles-large.scss */
+  article .project-section-selector a {
+    background: #3e89be;
+    padding: .3em .6em;
+    color: #eeeeee;
+  }
+  /* line 39, ../scss/project-page-styles-large.scss */
+  article .project-section-selector a:hover {
+    transition: background 0.1s;
+    background: #dc6122;
+    color: #eeeeee;
+  }
+  /* line 48, ../scss/project-page-styles-large.scss */
+  article .project-page-section {
+    padding-bottom: 2em;
+  }
+  /* line 55, ../scss/project-page-styles-large.scss */
+  article .project-page-section ul {
+    font-size: 1.25em;
+    line-height: 1.3em;
+  }
+  /* line 60, ../scss/project-page-styles-large.scss */
+  article .project-page-section ul li {
+    margin-left: 1em;
+    margin-bottom: .75em;
+    font-size: .90em;
+  }
+  /* line 68, ../scss/project-page-styles-large.scss */
+  article .project-page-section .project-page-section-item-nav {
+    line-height: 2em;
+    margin-bottom: 1em;
+  }
+  /* line 72, ../scss/project-page-styles-large.scss */
+  article .project-page-section .project-page-section-item-nav a {
+    background: #eeeeee;
+    color: #3e89be;
+    padding: .2em .4em;
+  }
+  /* line 79, ../scss/project-page-styles-large.scss */
+  article .project-page-section .project-page-section-item-nav a:hover {
+    background: #dc6122;
+    color: #eeeeee;
+  }
+  /* line 89, ../scss/project-page-styles-large.scss */
+  article .project-page-section-header {
+    background: #666666;
+    margin-bottom: 0em;
+    border-right: 2px solid white;
+    margin-bottom: 1em;
+  }
+  /* line 96, ../scss/project-page-styles-large.scss */
+  article .project-page-section-header h3 {
+    color: white;
+    margin-bottom: 0;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+  }
+  /* line 105, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    border: 3px solid #cccccc;
+    border-radius: 3px;
+  }
+  /* line 111, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-image-files {
+    margin-top: 1em;
+  }
+  /* line 115, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-image-files img {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+    opacity: .75;
+  }
+  /* line 122, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-image-files img:hover {
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    /* Safari */
+    opacity: 1;
+  }
+  /* line 129, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-image-files h5 {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+  }
+  /* line 135, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-image-files h5 span {
+    color: white;
+    letter-spacing: -1px;
+    background: black;
+    /* fallback color */
+    background: rgba(62, 137, 190, 0.7);
+    padding: .2em .4em;
+  }
+  /* line 146, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .user-interaction {
+    background: #eeeeee;
+    padding: 1em;
+    margin-bottom: 1.5em;
+  }
+  /* line 155, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-comments h6 {
+    font-weight: normal;
+  }
+  /* line 160, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-comments a {
+    font-style: italic;
+    color: #3e89be;
+    margin-right: .5em;
+  }
+  /* line 167, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-comments a:before, article .project-page-section-item .project-page-section-item-comments a:after {
+    content: "\0022";
+  }
+  /* line 172, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-comments span {
+    color: #dc6122;
+    margin-right: .5em;
+  }
+  /* line 178, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-comments .comment-count {
+    color: #666666;
+  }
+  /* line 186, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-rank a {
+    font-size: .9em;
+    transition: background .2s;
+    background: #cccccc;
+    transition: color .2s;
+    color: #3e89be;
+    padding: .2em .4em;
+    border-radius: 3px;
+    margin-right: .5em;
+  }
+  /* line 198, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-rank a span {
+    color: #dc6122;
+  }
+  /* line 204, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-rank a span:before {
+    content: "\00a0";
+  }
+  /* line 210, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-rank a:hover {
+    transition: background .2s;
+    background: #999999;
+    transition: color .2s;
+    color: #cccccc;
+  }
+  /* line 218, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-rank .vote-count {
+    font-size: .8em;
+  }
+  /* line 224, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-discussion {
+    margin-top: 1em;
+  }
+  /* line 227, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .project-page-section-item-discussion a {
+    color: #3e89be;
+  }
+  /* line 234, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .design-goals {
+    color: #dc6122;
+  }
+  /* line 239, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item h4 {
+    color: #dc6122;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: .25em;
+  }
+  /* line 247, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item h4 small {
+    font-size: .5em;
+  }
+  /* line 255, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item p {
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
+  /* line 260, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item img {
+    margin-bottom: 1em;
+  }
+  /* line 265, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item .view-more {
+    background: #3e89be;
+    color: white;
+    padding: .2em .4em;
+    font-size: .90em;
+    margin-bottom: 1em;
+  }
+  /* line 274, ../scss/project-page-styles-large.scss */
+  article .project-page-section-item hr {
+    margin-top: 2.25em;
+    margin-bottom: 2em;
+  }
+  /* line 283, ../scss/project-page-styles-large.scss */
+  article .profile-page-sidebar-section h4 {
+    font-weight: normal;
+    font-size: 1em;
+    color: #666666;
+    margin-bottom: 0;
+  }
+  /* line 291, ../scss/project-page-styles-large.scss */
+  article .profile-page-sidebar-section p {
+    color: #dc6122;
+    margin-bottom: .75em;
+  }
+  /* line 297, ../scss/project-page-styles-large.scss */
+  article .profile-page-sidebar-section a {
+    color: #3e89be;
+  }
+  /* line 302, ../scss/project-page-styles-large.scss */
+  article .profile-page-sidebar-section a:hover {
+    color: #dc6122;
+  }
+  /* line 2, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-content {
+    font-family: "Muli", sans-serif;
+  }
+  /* line 9, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-header {
+    background: #dc6122;
+    margin-bottom: 1em;
+  }
+  /* line 14, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-header h1 {
+    color: white;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  /* line 23, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-section-selector {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+  }
+  /* line 29, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-section-selector a {
+    background: #cccccc;
+    padding: .2em .4em;
+    color: #dc6122;
+  }
+  /* line 38, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-header {
+    background: #666666;
+    margin-bottom: 0em;
+    border-right: 2px solid white;
+    margin-bottom: 1em;
+  }
+  /* line 45, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-header h3 {
+    color: white;
+    margin-bottom: 0;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+  }
+  /* line 54, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section {
+    padding-bottom: 2em;
+  }
+  /* line 61, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section ul {
+    font-size: 1.25em;
+    line-height: 1.3em;
+  }
+  /* line 66, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section ul li {
+    margin-left: 1em;
+    margin-bottom: .75em;
+    font-size: .90em;
+  }
+  /* line 75, ../scss/edit-profile-page-styles-large.scss */
+  article .test .edit-profile-page-section-item:nth-child(odd) {
+    background: #eeeeee;
+  }
+  /* line 80, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    position: relative;
+  }
+  /* line 86, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item .asset-title {
+    color: #666666;
+    font-size: 1.25em;
+    margin-bottom: .25em;
+    font-weight: normal;
+  }
+  /* line 94, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item .edit-remove-asset {
+    margin-top: .5em;
+  }
+  /* line 98, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item .asset {
+    color: #dc6122;
+    font-size: 1.25em;
+    margin-top: 0;
+    margin-bottom: .5em;
+  }
+  /* line 106, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item .social-asset-item {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    margin-top: .25em;
+  }
+  /* line 112, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item .social-asset-item h5 {
+    font-weight: normal;
+  }
+  /* line 119, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item .bio-asset {
+    color: #666666;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: .5em;
+    line-height: 1.3em;
+  }
+  /* line 129, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item .asset:after {
+    content: '\00a0';
+  }
+  /* line 134, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item .edit-asset {
+    margin-right: .5em;
+  }
+  /* line 139, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item form {
+    margin-top: 1em;
+    margin-bottom: 0;
+    position: relative;
+    top: 80%;
+    bottom: 50%;
+  }
+  /* line 149, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item input[type="radio"] {
+    display: none;
+  }
+  /* line 153, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item input[type="radio"] + label {
+    color: #666666;
+    float: left;
+    text-align: left;
+    margin-right: 15px;
+    width: 200px;
+    font-size: 1em;
+  }
+  /* line 162, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item input[type="radio"] + label span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url(../img/check_radio_sheet.png) -38px top no-repeat;
+    cursor: pointer;
+  }
+  /* line 172, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item input[type="radio"]:checked + label span {
+    background: url(../img/check_radio_sheet.png) -57px top no-repeat;
+  }
+  /* line 177, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-section-item hr {
+    margin-top: 2.25em;
+    margin-bottom: 1em;
+  }
+  /* line 189, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section h4 {
+    font-weight: normal;
+    font-size: 1.5em;
+    font-family: "Bevan", cursive;
+    margin-bottom: .25em;
+    color: #999999;
+  }
+  /* line 201, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-projects p {
+    color: #dc6122;
+    margin-bottom: .75em;
+  }
+  /* line 207, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-projects a {
+    color: #3e89be;
+  }
+  /* line 212, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-projects a:hover {
+    color: #dc6122;
+  }
+  /* line 217, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-projects span {
+    font-size: .70em;
+    color: #dc6122;
+  }
+  /* line 226, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-following p {
+    color: #dc6122;
+    margin-bottom: .75em;
+  }
+  /* line 232, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-following a {
+    color: #3e89be;
+  }
+  /* line 237, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-following a:hover {
+    color: #dc6122;
+  }
+  /* line 242, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-following span {
+    font-size: .70em;
+    color: #dc6122;
+  }
+  /* line 251, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-groups a {
+    color: #3e89be;
+    font-size: 1.25em;
+  }
+  /* line 257, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-groups a:after {
+    content: '\00a0';
+  }
+  /* line 261, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-groups a:hover {
+    color: #dc6122;
+  }
+  /* line 266, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-groups span {
+    font-size: .80em;
+    color: #dc6122;
+  }
+  /* line 277, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-comments .user-comment {
+    color: #666666;
+    font-size: .80em;
+    font-style: italic;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+  }
+  /* line 286, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-comments .user-comment:hover {
+    color: #3e89be;
+  }
+  /* line 291, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-comments .user-comment-date {
+    font-size: .80em;
+    color: #dc6122;
+  }
+  /* line 297, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-comments .comment-post-topic {
+    color: #dc6122;
+    margin-bottom: .75em;
+    margin-top: 0;
+    font-size: .80em;
+  }
+  /* line 304, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-comments .comment-post-topic span {
+    color: #3e89be;
+  }
+  /* line 309, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-comments .user-comment:before, article .edit-profile-page-sidebar-section .sidebar-comments .user-comment:after {
+    content: '\0022';
+  }
+  /* line 314, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-comments a:hover {
+    color: #dc6122;
+  }
+  /* line 319, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-comments .view-all-button {
+    font-size: .70em;
+    text-align: right;
+    color: #3e89be;
+  }
+  /* line 327, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .view-all-button {
+    font-size: .70em;
+    padding: .2em .4em;
+    color: #3e89be;
+  }
+  /* line 336, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-accounts .active, article .edit-profile-page-sidebar-section .sidebar-accounts .inactive {
+    font-size: 1em;
+  }
+  /* line 341, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-accounts .active {
+    color: #dc6122;
+  }
+  /* line 346, ../scss/edit-profile-page-styles-large.scss */
+  article .edit-profile-page-sidebar-section .sidebar-accounts .inactive {
+    color: #3e89be;
+  }
+  /* line 4, ../scss/create-a-project-styles-large.scss */
+  article .page-title {
+    background: #dc6122;
+    margin-bottom: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
+  /* line 12, ../scss/create-a-project-styles-large.scss */
+  article .page-title h1 {
+    color: white;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 24, ../scss/create-a-project-styles-large.scss */
+  article .deliverable-instructions h2 {
+    padding: 0;
+    font-family: "Bevan", cursive;
+    color: #dc6122;
+    font-weight: normal;
+  }
+  /* line 32, ../scss/create-a-project-styles-large.scss */
+  article .deliverable-instructions p {
+    font-size: 1.25em;
+    line-height: 1.3;
+    margin-bottom: 1.25em;
+    color: #666666;
+  }
+  /* line 41, ../scss/create-a-project-styles-large.scss */
+  article .deliverable-submission {
+    background: #eeeeee;
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+  /* line 47, ../scss/create-a-project-styles-large.scss */
+  article .deliverable-submission .deliverable-submission-form-header {
+    color: #dc6122;
+    font-family: "Muli", sans-serif;
+    font-size: 1.5em;
+  }
+  /* line 54, ../scss/create-a-project-styles-large.scss */
+  article .deliverable-submission textarea {
+    width: 100%;
+    background: white;
+    border: 2px solid #dc6122;
+    margin-bottom: .5em;
+    font-size: 1.25em;
+  }
+  /* line 63, ../scss/create-a-project-styles-large.scss */
+  article .deliverable-submission input {
+    background: white;
+    border: 2px solid #dc6122;
+    margin-bottom: .5em;
+    font-size: 1.25em;
+    width: 100%;
+  }
+  /* line 72, ../scss/create-a-project-styles-large.scss */
+  article .deliverable-submission .deliverable-submission-form-submit-button {
+    border: none;
+    background: #3e89be;
+    color: #eeeeee;
+    padding: .2em .6em;
+    width: 12em;
+  }
+  /* line 85, ../scss/create-a-project-styles-large.scss */
+  article .deliverable-process-explaination h2 {
+    padding: 0;
+    font-family: "Bevan", cursive;
+    color: #dc6122;
+  }
+  /* line 92, ../scss/create-a-project-styles-large.scss */
+  article .deliverable-process-explaination p {
+    font-size: 1.25em;
+    line-height: 1.3;
+    margin-bottom: 1.25em;
+    color: #666666;
+  }
+  /* line 101, ../scss/create-a-project-styles-large.scss */
+  article .process-roadmap {
+    background: #eeeeee;
+    padding: 1em;
+  }
+  /* line 106, ../scss/create-a-project-styles-large.scss */
+  article .process-roadmap h3 {
+    color: #dc6122;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+  }
+  /* line 113, ../scss/create-a-project-styles-large.scss */
+  article .process-roadmap a {
+    display: block;
+    font-size: 1.25em;
+    margin-bottom: .5em;
+  }
+  /* line 2, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-content {
+    font-family: "Muli", sans-serif;
+  }
+  /* line 7, ../scss/edit-project-page-styles-large.scss */
+  article .project-creation-explanation {
+    background: #eeeeee;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border: 3px solid #3e89be;
+    border-radius: 3px;
+  }
+  /* line 15, ../scss/edit-project-page-styles-large.scss */
+  article .project-creation-explanation h4 {
+    font-family: "Bevan", cursive;
+    color: #dc6122;
+    font-weight: normal;
+  }
+  /* line 22, ../scss/edit-project-page-styles-large.scss */
+  article .project-creation-explanation p {
+    color: #666666;
+    font-style: italic;
+  }
+  /* line 28, ../scss/edit-project-page-styles-large.scss */
+  article .project-creation-explanation button {
+    border: none;
+    background: #3e89be;
+    color: #eeeeee;
+    padding: .4em .6em;
+    font-family: "Muli", sans-serif;
+    font-weight: normal;
+  }
+  /* line 38, ../scss/edit-project-page-styles-large.scss */
+  article .lead {
+    font-style: italic;
+  }
+  /* line 43, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-header {
+    background: #dc6122;
+    margin-bottom: 1em;
+  }
+  /* line 48, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-header h1 {
+    color: white;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  /* line 56, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-header small {
+    color: white;
+  }
+  /* line 63, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-section-selector {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+  }
+  /* line 69, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-section-selector a {
+    background: #3e89be;
+    padding: .3em .6em;
+    color: #eeeeee;
+  }
+  /* line 76, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-section-selector a:hover {
+    transition: background 0.1s;
+    background: #dc6122;
+    color: #eeeeee;
+  }
+  /* line 85, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section {
+    padding-bottom: 2em;
+  }
+  /* line 93, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section ul {
+    font-size: 1.25em;
+    line-height: 1.3em;
+  }
+  /* line 98, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section ul li {
+    margin-left: 1em;
+    margin-bottom: .75em;
+    font-size: .90em;
+  }
+  /* line 106, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section .edit-project-page-section-item-nav {
+    line-height: 2em;
+    margin-bottom: 1em;
+  }
+  /* line 110, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section .edit-project-page-section-item-nav a {
+    background: #eeeeee;
+    color: #3e89be;
+    padding: .2em .4em;
+  }
+  /* line 117, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section .edit-project-page-section-item-nav a:hover {
+    background: #dc6122;
+    color: #eeeeee;
+  }
+  /* line 127, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-header {
+    background: #666666;
+    margin-bottom: 0em;
+    border-right: 2px solid white;
+    margin-bottom: 1em;
+  }
+  /* line 134, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-header h3 {
+    color: white;
+    margin-bottom: 0;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+  }
+  /* line 143, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    border: 3px solid #cccccc;
+    border-radius: 3px;
+  }
+  /* line 149, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-deliverable-content-button {
+    font-size: 1em;
+    margin-top: -0.25em;
+    margin-bottom: 0;
+  }
+  /* line 156, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item a {
+    color: #3e89be;
+  }
+  /* line 164, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-deliverable-content textarea {
+    font-size: 1.25em;
+    width: 100%;
+    height: 100%;
+  }
+  /* line 171, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-deliverable-content input {
+    border: none;
+    background: #3e89be;
+    color: #eeeeee;
+    padding: .2em .6em;
+  }
+  /* line 180, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .project-image-files {
+    margin-top: 1em;
+  }
+  /* line 184, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .project-image-files img {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+    opacity: .75;
+  }
+  /* line 191, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .project-image-files img:hover {
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    /* Safari */
+    opacity: 1;
+  }
+  /* line 198, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .project-image-files h5 {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+  }
+  /* line 204, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .project-image-files h5 span {
+    color: white;
+    letter-spacing: -1px;
+    background: black;
+    /* fallback color */
+    background: rgba(62, 137, 190, 0.7);
+    padding: .2em .4em;
+  }
+  /* line 215, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .analytics {
+    background: #eeeeee;
+    padding: 1em;
+    margin-bottom: 1.5em;
+  }
+  /* line 224, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-comments h6 {
+    font-weight: normal;
+    font-size: 1.25em;
+  }
+  /* line 231, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-comments a {
+    font-style: italic;
+    color: #3e89be;
+    margin-right: .5em;
+  }
+  /* line 238, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-comments a:before, article .edit-project-page-section-item .edit-project-page-section-item-comments a:after {
+    content: "\0022";
+  }
+  /* line 243, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-comments span {
+    color: #dc6122;
+    margin-right: .5em;
+  }
+  /* line 249, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-comments .comment-count {
+    color: #666666;
+  }
+  /* line 255, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-rank {
+    margin-bottom: 1em;
+  }
+  /* line 259, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-rank h6 {
+    font-weight: normal;
+    font-size: 1.25em;
+  }
+  /* line 266, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-rank .title {
+    color: #dc6122;
+  }
+  /* line 271, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-rank .change {
+    color: green;
+  }
+  /* line 278, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-discussion {
+    margin-top: 1em;
+  }
+  /* line 284, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .edit-project-page-section-item-discussion a {
+    color: #3e89be;
+  }
+  /* line 291, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .design-goals {
+    color: #dc6122;
+  }
+  /* line 296, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item h4 {
+    color: #dc6122;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    font-size: 2em;
+    margin-bottom: .25em;
+  }
+  /* line 304, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item h4 small {
+    font-size: .5em;
+  }
+  /* line 312, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item p {
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
+  /* line 317, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item img {
+    margin-bottom: 1em;
+  }
+  /* line 322, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item .view-more {
+    background: #3e89be;
+    color: white;
+    padding: .2em .4em;
+    font-size: .90em;
+    margin-bottom: 1em;
+  }
+  /* line 331, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-section-item hr {
+    margin-top: 2.25em;
+    margin-bottom: 2em;
+  }
+  /* line 340, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-sidebar-section h4 {
+    font-weight: normal;
+    font-size: 1em;
+    color: #666666;
+    margin-bottom: 0;
+  }
+  /* line 348, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-sidebar-section p {
+    color: #dc6122;
+    margin-bottom: .75em;
+  }
+  /* line 354, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-sidebar-section a {
+    color: #3e89be;
+  }
+  /* line 359, ../scss/edit-project-page-styles-large.scss */
+  article .edit-project-page-sidebar-section a:hover {
+    color: #dc6122;
+  }
+  /* line 4, ../scss/about-page-styles-large.scss */
+  article .page-title {
+    background: #dc6122;
+    margin-bottom: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
+  /* line 12, ../scss/about-page-styles-large.scss */
+  article .page-title h1 {
+    color: white;
+    font-family: "Bevan", cursive;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 24, ../scss/about-page-styles-large.scss */
+  article .about-page-discription h2 {
+    padding: 0;
+    font-family: "Bevan", cursive;
+    color: #dc6122;
+    font-weight: normal;
+  }
+  /* line 32, ../scss/about-page-styles-large.scss */
+  article .about-page-discription h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: white;
+    background: #999999;
+    padding-left: .5em;
+  }
+  /* line 40, ../scss/about-page-styles-large.scss */
+  article .about-page-discription p {
+    font-size: 1.25em;
+    line-height: 1.3;
+    margin-bottom: 1.25em;
+    color: #666666;
+  }
+  /* line 48, ../scss/about-page-styles-large.scss */
+  article .about-page-discription ul {
+    margin-left: 2em;
+  }
+  /* line 52, ../scss/about-page-styles-large.scss */
+  article .about-page-discription ul li {
+    font-size: 1.25em;
+  }
+  /* line 56, ../scss/about-page-styles-large.scss */
+  article .about-page-discription ul li a {
+    color: #3e89be;
+  }
+
+  /* =======================FOOTER STYLES ========================================*/
+  /* line 277, ../scss/layout.scss */
+  footer {
+    padding-top: 3em;
+    padding-bottom: 2em;
+    text-align: center;
+  }
+  /* line 283, ../scss/layout.scss */
+  footer a {
+    color: #3e89be;
+  }
+
+  /* line 291, ../scss/layout.scss */
+  .copyright p {
+    color: #666666;
+    text-align: center;
+  }
+}

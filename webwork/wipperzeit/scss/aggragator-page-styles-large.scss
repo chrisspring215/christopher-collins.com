@@ -1,0 +1,188 @@
+/* 
+	AGGRAGATOR PAGE STYLES
+*/
+	.aggregator-type-nav
+	{
+
+		a
+		{
+			padding: .4em .4em;
+			text-align: center;
+
+		}
+
+		.active-aggregator-type-nav-button, .inactive-aggregator-type-nav-button
+		{
+			border-left: 2px solid $white;
+			border-right: 2px solid $white;
+		}
+
+
+		.active-aggregator-type-nav-button
+		{
+			color: $white;
+			background: $orange;
+			padding-bottom: .6em;
+			margin-bottom: -1px;
+		}
+
+		.inactive-aggregator-type-nav-button
+		{
+			color: $white;
+			background: $blue;
+			border-bottom: 3px solid $white;
+		}
+	}
+
+	.aggregator-title-box
+	{
+		background: $orange;
+
+		h1
+		{
+			color: $darker;
+			font-family: $header;
+			margin-bottom: 0;
+		}
+		
+		.aggregator-description
+		{
+			color: $white;
+			margin-bottom: .5em;
+
+		}
+
+		a
+		{
+			color: $lightest;
+			background: $blue;
+			border-radius: .25em;
+			text-align: center;
+			margin: 0 1em 1em 1em;
+			padding-top: .2em;
+		}
+	}
+
+	.aggregator-new-project-box
+	{
+		height: 182px;
+		background: $darker;
+		h1
+		{
+
+			font-family: $header;
+			margin-bottom: 0;
+			font-size: 2em;
+			margin-top: .75em;
+		}
+		
+		.aggregator-description
+		{
+			color: $lightest;
+			margin-bottom: .5em;
+
+		}
+
+		a
+		{
+			margin-bottom: 1em;
+			background: $blue;
+			padding: .2em .4em;
+			border-radius: .25em;
+			text-align: center;
+			color: $lightest;
+		}
+	}
+
+	.aggregator-project-sort
+	{
+		margin-top: .5em;
+		background: $white;
+		padding-top: .4em;
+		padding-bottom: .4em;
+		text-align: center;
+		border-top: 1px solid $lightest;
+
+		.active
+			{
+				color: $orange;
+			}
+
+	}
+
+	.project-list
+	{
+		.project-wrapper
+		{
+			font-family: $other;
+			border-top: 1px solid $lightest;
+			padding-top: 2em;
+			padding-bottom: 2.25em;
+			color: $dark;
+		}
+
+		.project-content
+		{
+			.aggragator-page-project-title>a
+			{
+				margin: 0;
+				color: $blue;
+				font-family: $header;
+				font-weight: normal;
+			}
+
+			.aggragator-page-project-title
+			{
+				margin-bottom: 0em;
+			}
+			.deliverable-compleation
+			{
+				display: inline;
+				margin-top: 0;
+
+				a>img
+				{
+					width: 30px;
+					margin-right: .5em;
+					margin-bottom: 1em;
+				}
+			}
+			p
+			{
+				margin-bottom: 1em;
+			}
+
+			.byline
+			{
+				margin-bottom: 1em;
+
+				span
+				{
+					color: $orange;
+				}
+			}
+		}
+
+		.project-interaction-nav
+		{
+			a
+			{
+				margin-right: .5em;
+				padding: .025em .2em;
+				text-align: left;
+			}
+		}
+
+		.project-video
+		{
+		}
+	}
+
+	.load-more-projects-button
+	{
+		background: $blue;
+		color: $white;
+		font-size: 1em;
+		padding: .25em .5em;
+		border-radius: .25em;
+	}

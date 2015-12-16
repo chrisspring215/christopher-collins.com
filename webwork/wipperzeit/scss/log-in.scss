@@ -1,0 +1,101 @@
+
+  #popupbox
+  {
+    position: absolute; 
+    z-index: 9; 
+    /* visibility: hidden; */
+
+    background: black;
+
+   
+
+    .dimmer
+    {
+       width: 100%;
+       height: 100%;
+       background: black;
+       position: fixed;
+       top: 0;
+       left: 0;
+       opacity: .75;
+    }
+
+    .inner-border
+    {
+      border: 3px solid $blue;
+      border-radius: 3px;
+      text-align: left;
+      font-size: 1em;
+      color: $dark;
+      background: $white;
+      position: fixed;
+      right: 3em;
+      top: 3em;
+      padding: 3em;
+      width: 43em;
+
+      a
+      {
+        color: $blue;
+      }
+
+      .form-title
+      {
+        font-size: 2em;
+        margin-bottom: 1em;
+        
+
+        span
+        {
+          font-family: $header;
+          font-size: 1em;
+        }
+      }
+
+      .login-form-header
+      {
+        color: $orange;
+        font-size: 1.5em;
+        font-family: $header;
+      }
+
+      input, img
+      {
+        background: $white;
+        border: 2px solid $orange;
+        margin-bottom: .5em;
+      }
+
+      img
+      {
+        width: 12.72em;
+      }
+
+      .login-form-submit-button
+      {
+        border: none;
+        background: $blue;
+        color: $lightest;
+        padding: .2em .6em;
+      }
+
+      .login-form
+      {
+        padding-right: 3em;
+        float: left;
+        margin-right: 3em;
+        border-right: 2px solid $orange;
+      }
+      .create-account-form
+      {
+        float: right;
+      }
+
+      .close-form-button
+      {
+        margin-top: 1em;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }

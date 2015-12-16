@@ -1,0 +1,320 @@
+.top-bar .name h1 a
+{
+	font-weight: $thin;
+	font-size: .75em;
+}
+
+.global-nav
+{
+	background: $default-main;
+	box-shadow: $shadow;
+	z-index: 5;
+
+	.top-bar-section li:not(.has-form) a:not(.button)
+	{
+		background: $default-main;
+		font-weight: $thin;
+	}
+
+	.top-bar-section li:not(.has-form) .active:not(.button)
+	{
+		background: $default-lighter;
+	}
+}
+
+.has-nav-shadow
+{
+	box-shadow: $secondary-nav-shadow;
+}
+
+body
+{
+	background-image: url('../img/noise-background.png');
+}
+
+main
+{
+	background-repeat: repeat;
+	height: 100%;
+	padding-top: 1em;
+}
+
+.log-in-page-main-content
+{
+	.log-in-page-logo
+	{
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.log-in-page-call-to-action
+	{
+		font-size: 1.75em;
+		font-weight: $thin;
+		line-height: 1em;
+		margin-top: .5em;
+		margin-bottom: 1em;
+		color: $shade-dark;
+		font-weight: $thin;
+	}
+}
+
+.user-points-display
+{
+	background: $default-lighter;
+	color: $white;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	box-shadow: $nav-shadow;
+}
+
+.meal-nav
+{
+	background: $default-main;
+	box-shadow: $shadow;
+	
+	a
+	{
+		font-size: 0.7em;
+		padding: 1em 0px .9em 0;
+		border: medium none;
+		display: inline-block;
+		margin-right: -0.3em;
+		text-transform: uppercase;
+		font-weight: $thin;
+		width: 50%;
+		background: $default-main;
+		color: $white;
+	}
+
+	.active
+	{
+		background: $default-darker;
+		border-bottom: 3px solid $white;
+	}
+}
+
+.geoLocationError, .geoLocationWaiting
+{
+	font-weight: 300;
+	font-size: 1.25em;
+	line-height: 1.1em;
+}
+
+.geoLocationError
+{
+	color: #b71c1c;
+}
+
+.geoLocationWaiting
+{
+	color: #2e7d32;
+}
+
+.offers-page-content
+{
+	ul
+	{
+		list-style-type: none;
+		margin-left: 0;
+	}
+
+	li
+	{
+		background: $white;
+		background-size: cover;
+		border-bottom: 12px solid $shade-light;
+		border-left: 1px solid $shade-light;
+		border-right: 1px solid $shade-light;
+		border-top: 12px solid $shade-light;
+		padding: 1em; 
+		margin-bottom: 1em;
+		color: $shade-light;
+		box-shadow: $shadow;
+		border-radius: .1em;
+	}
+
+	.reward-name
+	{
+		font-size: 1.25em;
+		font-weight: 400;
+	}
+
+	.reward-description
+	{
+		line-height: 1.3em;
+		margin-bottom: .5em;
+		font-weight: 300;
+	}
+
+	.active-offer
+	{
+		border-bottom: 12px solid $default-lighter;
+		border-left: 1px solid $default-lighter;
+		border-right: 1px solid $default-lighter;
+		border-top: 12px solid $default-lighter;
+
+		a
+		{
+			color: $shade-dark;
+		}
+
+		.reward-view-more
+		{
+			color: $default-main;
+			font-weight: $medium;
+		}
+	}
+
+	img
+	{
+		height: .75em;
+		width: auto;
+		margin-top: -4px;
+	}
+}
+
+.firstVisitWalkthrough p
+{
+	font-size: 2em;
+	line-height: 1.3em;
+}
+
+.pointsEarnedModal
+{
+	font-size: 1.5em;
+
+	.points-modal-message
+	{
+		color: $shade-dark;
+		display: inline-block;
+		line-height: 1em;
+		margin-bottom: .75em;
+		padding: .25em;
+		border-top: 3px solid $shade-dark;
+		border-bottom: 3px solid $shade-dark;
+		font-weight: 600;
+		display: block;
+	}
+
+	.upsell-points-prompt
+	{
+		font-size: 1.15em;
+		font-weight: 500;
+		line-height: 1.10em;
+		color: $shade-dark;
+		color: $default-lighter;
+
+		span
+		{
+			font-weight: 700;
+		}
+	}
+
+	img
+	{
+		margin-bottom: .75em;
+		border: 2px solid $shade-dark;
+		box-shadow: $shadow;
+	}
+}
+
+.offer-modal
+{
+	.offer-modal-title
+	{
+		color: $shade-dark;
+		line-height: 1.10em;
+		margin-bottom: .25em;
+		font-weight: 900;
+		display: block;
+	}
+
+	.offer-modal-image
+	{
+		margin-bottom: .75em;
+		border: 2px solid $shade-dark;
+		box-shadow: $shadow;
+	}
+
+	.offer-modal-description
+	{
+		line-height: 1.3em;
+		margin-bottom: .25em;
+	}
+
+	.offer-modal-fine-print
+	{
+		font-size: .75em;
+		font-style: italic;
+		margin-bottom: .25em;
+	}
+}
+
+.upsellModal
+{
+	.offer-modal-title
+	{
+		color: $shade-dark;
+		line-height: 1.10em;
+		margin-bottom: .25em;
+		font-weight: 900;
+		display: block;
+	}
+}
+
+.upsellPointsEarnedModal
+{
+	.offer-modal-title
+	{
+		color: $shade-dark;
+		display: inline-block;
+		line-height: 1em;
+		padding: .25em;
+		margin-bottom: .75em;
+		margin-top: 2em;
+		border-top: 3px solid $shade-dark;
+		border-bottom: 3px solid $shade-dark;
+		font-weight: 900;
+		display: block;
+	}
+}
+
+.offerPointsSpendAcceptModal, .offerAcceptModal
+{
+	.offer-modal-title
+	{
+		color: $shade-dark;
+		padding-top: 2em;
+		line-height: 1.3em;
+	}
+	
+}
+
+.new-modal-test
+{
+	border: 1px solid red;
+	height: 100%;
+	transform: translate(-100,100);
+}
+
+.terms-page 
+{
+	h4
+	{
+		font-weight: 900;
+	}
+
+	p, li
+	{
+		line-height: 1.3em;
+	}
+
+	li
+	{
+		margin-bottom: .5em;
+	}
+}
+
+
+

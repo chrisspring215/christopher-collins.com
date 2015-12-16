@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Edit Project Page</title>
+
+  
+  <link rel="stylesheet" href="css/style.css" />
+  
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+  <!-- WEB FONTS -->
+  <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+  <!-- LOGIN JS -->
+  <script language="JavaScript" type="text/javascript">
+  function login(showhide){
+    if(showhide == "show"){
+        document.getElementById('popupbox').style.visibility="visible";
+    }else if(showhide == "hide"){
+        document.getElementById('popupbox').style.visibility="hidden"; 
+    }
+  }
+  </script>
+
+
+
+</head>
+<body>
+	<!-- LARGE SCREEN HEADER -->
+	<div class="darkest hide-for-small"><!-- ROW BACKGROUND -->
+		<div class="row">
+			<header class="large-12 columns">
+				<div class="large-8 small-12 columns">
+					<h2 class="">Wipperzeit <small>large</small></h2>
+				</div>
+				<div class="large-4 small-12 columns utility-nav">
+					<a href="javascript:login('show');">log-in</a>
+				</div>
+			</header>
+		</div>
+	</div>
+
+	<!-- SMALL SCREEN HEADER -->
+	<div class="darkest hide-for-medium-up"><!-- ROW BACKGROUND -->
+		<div class="row">
+			<header class="large-12 small-12 columns">
+				<div class="large-8 small-12 columns">
+					<span><h2>Wipperzeit<a href="">menu</a><a href="">log-in</a></h2></span>
+				</div>
+			</header>
+		</div>
+	</div>
+
+
+	<!-- LARGE SCREEN NAV -->
+	<div class="blue hide-for-small"><!-- ROW BACKGROUND -->
+		<div class="row">
+			<nav class="global-nav large-12 columns">
+				<a href="high-concepts.html">View Ideas</a>
+				<a href="">The Process</a>
+				<a href="">Join</a>
+				<a href="">About WZ</a>
+			</nav>
+		</div>
+	</div>
+
+	<!-- ARTICLE -->
+	<div class="white"><!-- ROW BACKGROUND COLOR-->
+		<div class="row">
+
+			<!-- Log In Popup 
+			<div id="popupbox">
+
+					<div class="dimmer">&nbsp;</div>	
+					<div class="inner-border">
+						<div class="form-title">
+							<span >Log in or create an account</span>
+						</div>
+						<div class="login-form">
+							<form name="login" action="" method="post">
+								<span class="login-form-header">Log In</span>
+								<br>
+								<br>
+								<label>
+									<span>Username:</span>
+									<br>
+									<input type="text" name="username" size="26" />
+								</label>
+								<label>
+									<span>Password:</span>
+									<br>
+									<input type="password" name="password" size="26" />
+									<br>
+									<a href="">forgot your password?</a>
+									<br>
+									<br>
+									<input type="checkbox"  value="" /><span> Remember me on this computer</span>
+									
+								</lable>
+								<br>
+								<br>
+								<lable>
+									<input class="login-form-submit-button" type="submit" name="submit" value="login" />
+								</label>
+
+							</form>
+						</div>
+
+
+						<div class="create-account-form">
+							<form name="login" action="" method="post">
+								<span class="login-form-header">Create an account</span>
+								<br>
+								<br>
+								<label>
+									<span>Username:</span>
+									<br>
+									<input type="text" name="username" size="26" />
+								</label>
+								<label>
+									<span>Email:</span>
+									<br>
+									<input type="email" name="email" size="26" />
+								</label>
+
+								<label>
+									<span>Password:</span>
+									<br>
+									<input type="password" name="password" size="26" />
+									<br>
+								</label>
+								<label>
+									<span>Verify Password:</span>
+									<br>
+									<input type="password" name="password" size="26" />
+									<br>
+								</label>
+								<label>
+									<span>Human?</span>
+									<br>
+									<img src="img/cap.png">
+								</label>
+								<label>
+									<span>Enter text from above</span>
+									<br>
+									<input type="text" name="username" size="26" />
+								</label>
+								<label>
+									<input type="checkbox"  value="" /><span> Remember me on this computer</span>
+								</label>
+								<br>
+								<label>
+									<input class="login-form-submit-button" type="submit" name="submit" value="create account" />
+								</label>
+							</form>
+
+						</div>
+						<br style="clear: both;">
+							<div class="close-form-button">
+								<a href="javascript:login('hide');">close window</a>
+							</div>
+						<br>
+					</div>
+				</div>
+				<!-- End LOGIN Popup -->
+
+			<article class="large-12 columns">
+
+				<!-- PROFILE HEADER-->
+				<div class="row">
+					<div class="small-12 large-12 columns project-creation-explanation">
+						<h4>You've created a project!</h4>
+						<p>Your High Concept is now able to be viewed on the High Concepts page but this is only the first step in the creation of your project.</p>
+						<p>Below is a list of elements that can help you and viewers understand what your concept is trying to achieve. By filling out the fields below, the community will be able to provide you with greater suggestions on how to improve your High Concept.</p>
+						<p>You can update any part of your project at anytime.</p>
+						<button>close this window</button>
+
+					</div>
+					<div class="small-12 large-12 columns edit-project-page-header">
+						<h1 class="">AUsersNewProject <small>project managment</small></h1>
+					</div>
+
+				</div>
+
+				<!-- Project In-Page Nav -->
+				<div class="row">
+					<div class="small-12 large-12 columns">
+						<nav class="row edit-project-section-selector hide-for-small">
+							<a href="">High Concept</a>
+							<a href="">30 Second Pitch</a>
+							<a href="">Rocket Pitch</a>
+							<a href="">Discussion</a>
+						</nav>
+						<nav class="row edit-project-section-selector hide-for-medium-up">
+							<a class="small-3 large-3 columns" href="">High Concept</a>
+							<a class="small-3 large-3 columns" href="">30 Second Pitch</a>
+							<a class="small-3 large-3 columns" href="">Rocket Pitch</a>
+							<a class="small-3 large-3 columns" href="">Discussion</a>
+						</nav>
+					</div>
+				</div>
+
+				<div class="row edit-project-page-content">
+
+					<!-- PROJECT -->
+					<div class="small-12 large-8 columns">
+
+						<div class="row edit-project-page-section">
+
+							<div class="small-12 large-12 columns edit-project-page-section-header">
+								<h3>High Concept</h3>
+							</div>
+
+							<nav class="small-12 large-12 columns edit-project-page-section-item-nav">
+								<a href="#log-line">Log-line</a>
+								<a href="#genre">Genre</a>
+								<a href="#player-motivation">Player Motivation</a>
+								<a href="#unique-selling-points">Unique Selling Points</a>
+								<a href="#design-goals">Design Goals</a>
+								<a href="#features">Features</a>
+								<a href="#characters">Characters</a>
+								<a href="#target-customer">Target Customer</a>
+								<a href="#competition">Competition</a>
+								<a href="#target-hardware">Target Hardware</a>
+							</nav>
+
+							<div id="log-line" class="small-12 large-12 columns edit-project-page-section-item">
+
+								<h4>Log-line <small>Updated: 1/7/1980</small></h4>
+								<p>This is the HC that was entered on the Create a Project page.</p>
+							
+								<p class="edit-deliverable-content-button"><a href="">edit deliverable</a></p>
+
+								<form class="edit-deliverable-content">
+									<label>
+										<textarea>This window and the 'update' button will be hidden until the user clicks the 'Edit' button above</textarea>
+									</label>
+									<label>
+										<input type="submit" value="update">
+									</label>
+								</form>
+
+								<div class="analytics">
+									<div class="edit-project-page-section-item-rank">
+										<h6>Community Input</h6>
+										<span class="title">Approval:</span> <span>55%, </span><span class="change">+5% since last update</span>
+									</div>
+									<div class="edit-project-page-section-item-comments">
+										<h6>Recent Discussions</h6>
+										<span>On Jan/24/1998:</span><a href="">This is a topic title.</a><span class="comment-count">34 comments</span>
+									</div>
+									<div class="edit-project-page-section-item-discussion">
+										<a href="">view all discussions</a>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div id="genre" class="small-12 large-12 columns edit-project-page-section-item">
+								<h4>Genre <small>Updated: 1/7/1980</small></h4>
+								<p>This is the HC that was entered on the Create a Project page.</p>
+							
+								<p class="edit-deliverable-content-button"><a href="">edit deliverable</a></p>
+
+								<form class="edit-deliverable-content">
+									<label>
+										<textarea>This window and the 'update' button will be hidden until the user clicks the 'Edit' button above</textarea>
+									</label>
+									<label>
+										<input type="submit" value="update">
+									</label>
+								</form>
+
+								<div class="analytics">
+									<div class="edit-project-page-section-item-rank">
+										<h6>Community Input</h6>
+										<span class="title">Approval:</span> <span>55%, </span><span class="change">+5% since last update</span>
+									</div>
+									<div class="edit-project-page-section-item-comments">
+										<h6>Recent Discussions</h6>
+										<span>On Jan/24/1998:</span><a href="">This is a topic title.</a><span class="comment-count">34 comments</span>
+									</div>
+									<div class="edit-project-page-section-item-discussion">
+										<a href="">view all discussions</a>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div id="player-motivation" class="small-12 large-12 columns edit-project-page-section-item">
+								<h4>Player Motivation <small>Updated: 1/7/1980</small></h4>
+								<p>This is the HC that was entered on the Create a Project page.</p>
+							
+								<p class="edit-deliverable-content-button"><a href="">edit deliverable</a></p>
+
+								<form class="edit-deliverable-content">
+									<label>
+										<textarea>This window and the 'update' button will be hidden until the user clicks the 'Edit' button above</textarea>
+									</label>
+									<label>
+										<input type="submit" value="update">
+									</label>
+								</form>
+
+								<div class="analytics">
+									<div class="edit-project-page-section-item-rank">
+										<h6>Community Input</h6>
+										<span class="title">Approval:</span> <span>55%, </span><span class="change">+5% since last update</span>
+									</div>
+									<div class="edit-project-page-section-item-comments">
+										<h6>Recent Discussions</h6>
+										<span>On Jan/24/1998:</span><a href="">This is a topic title.</a><span class="comment-count">34 comments</span>
+									</div>
+									<div class="edit-project-page-section-item-discussion">
+										<a href="">view all discussions</a>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div id="unique-selling-points" class="small-12 large-12 columns edit-project-page-section-item">
+								<h4>Unique Selling Points <small>Updated: 1/7/1980</small></h4>
+
+								<p>This is the HC that was entered on the Create a Project page.</p>
+							
+								<p class="edit-deliverable-content-button"><a href="">edit deliverable</a></p>
+
+								<form class="edit-deliverable-content">
+									<label>
+										<textarea>This window and the 'update' button will be hidden until the user clicks the 'Edit' button above</textarea>
+									</label>
+									<label>
+										<input type="submit" value="update">
+									</label>
+								</form>
+
+								<div class="analytics">
+									<div class="edit-project-page-section-item-rank">
+										<h6>Community Input</h6>
+										<span class="title">Approval:</span> <span>55%, </span><span class="change">+5% since last update</span>
+									</div>
+									<div class="edit-project-page-section-item-comments">
+										<h6>Recent Discussions</h6>
+										<span>On Jan/24/1998:</span><a href="">This is a topic title.</a><span class="comment-count">34 comments</span>
+									</div>
+									<div class="edit-project-page-section-item-discussion">
+										<a href="">view all discussions</a>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div id="design-goals" class="small-12 large-12 columns edit-project-page-section-item">
+								<h4>Design Goals <small>Updated: 1/7/1980</small></h4>
+
+								<p>This is the HC that was entered on the Create a Project page.</p>
+							
+								<p class="edit-deliverable-content-button"><a href="">edit deliverable</a></p>
+
+								<form class="edit-deliverable-content">
+									<label>
+										<textarea>This window and the 'update' button will be hidden until the user clicks the 'Edit' button above</textarea>
+									</label>
+									<label>
+										<input type="submit" value="update">
+									</label>
+								</form>
+
+								<div class="analytics">
+									<div class="edit-project-page-section-item-rank">
+										<h6>Community Input</h6>
+										<span class="title">Approval:</span> <span>55%, </span><span class="change">+5% since last update</span>
+									</div>
+									<div class="edit-project-page-section-item-comments">
+										<h6>Recent Discussions</h6>
+										<span>On Jan/24/1998:</span><a href="">This is a topic title.</a><span class="comment-count">34 comments</span>
+									</div>
+									<div class="edit-project-page-section-item-discussion">
+										<a href="">view all discussions</a>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div id="features" class="small-12 large-12 columns edit-project-page-section-item">
+								<h4>Features <small>Updated: 1/7/1980</small></h4>
+
+								<p>This is the HC that was entered on the Create a Project page.</p>
+							
+								<p class="edit-deliverable-content-button"><a href="">edit deliverable</a></p>
+
+								<form class="edit-deliverable-content">
+									<label>
+										<textarea>This window and the 'update' button will be hidden until the user clicks the 'Edit' button above</textarea>
+									</label>
+									<label>
+										<input type="submit" value="update">
+									</label>
+								</form>
+
+								<div class="analytics">
+									<div class="edit-project-page-section-item-rank">
+										<h6>Community Input</h6>
+										<span class="title">Approval:</span> <span>55%, </span><span class="change">+5% since last update</span>
+									</div>
+									<div class="edit-project-page-section-item-comments">
+										<h6>Recent Discussions</h6>
+										<span>On Jan/24/1998:</span><a href="">This is a topic title.</a><span class="comment-count">34 comments</span>
+									</div>
+									<div class="edit-project-page-section-item-discussion">
+										<a href="">view all discussions</a>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div id="characters" class="small-12 large-12 columns edit-project-page-section-item">
+								<h4>Characters <small>Updated: 1/7/1980</small></h4>
+
+								<p>This is the HC that was entered on the Create a Project page.</p>
+							
+								<p class="edit-deliverable-content-button"><a href="">edit deliverable</a></p>
+
+								<form class="edit-deliverable-content">
+									<label>
+										<textarea>This window and the 'update' button will be hidden until the user clicks the 'Edit' button above</textarea>
+									</label>
+									<label>
+										<input type="submit" value="update">
+									</label>
+								</form>
+
+								<div class="analytics">
+									<div class="edit-project-page-section-item-rank">
+										<h6>Community Input</h6>
+										<span class="title">Approval:</span> <span>55%, </span><span class="change">+5% since last update</span>
+									</div>
+									<div class="edit-project-page-section-item-comments">
+										<h6>Recent Discussions</h6>
+										<span>On Jan/24/1998:</span><a href="">This is a topic title.</a><span class="comment-count">34 comments</span>
+									</div>
+									<div class="edit-project-page-section-item-discussion">
+										<a href="">view all discussions</a>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div id="target-customer" class="small-12 large-12 columns edit-project-page-section-item">
+								<h4>Target Customer <small>Updated: 1/7/1980</small></h4>
+
+								<p>This is the HC that was entered on the Create a Project page.</p>
+							
+								<p class="edit-deliverable-content-button"><a href="">edit deliverable</a></p>
+
+								<form class="edit-deliverable-content">
+									<label>
+										<textarea>This window and the 'update' button will be hidden until the user clicks the 'Edit' button above</textarea>
+									</label>
+									<label>
+										<input type="submit" value="update">
+									</label>
+								</form>
+
+								<div class="analytics">
+									<div class="edit-project-page-section-item-rank">
+										<h6>Community Input</h6>
+										<span class="title">Approval:</span> <span>55%, </span><span class="change">+5% since last update</span>
+									</div>
+									<div class="edit-project-page-section-item-comments">
+										<h6>Recent Discussions</h6>
+										<span>On Jan/24/1998:</span><a href="">This is a topic title.</a><span class="comment-count">34 comments</span>
+									</div>
+									<div class="edit-project-page-section-item-discussion">
+										<a href="">view all discussions</a>
+									</div>
+								</div>
+							</div>
+
+							<div id="competition" class="small-12 large-12 columns edit-project-page-section-item">
+								<h4>Competition <small>Updated: 1/7/1980</small></h4>
+
+								<p>This is the HC that was entered on the Create a Project page.</p>
+							
+								<p class="edit-deliverable-content-button"><a href="">edit deliverable</a></p>
+
+								<form class="edit-deliverable-content">
+									<label>
+										<textarea>This window and the 'update' button will be hidden until the user clicks the 'Edit' button above</textarea>
+									</label>
+									<label>
+										<input type="submit" value="update">
+									</label>
+								</form>
+
+								<div class="analytics">
+									<div class="edit-project-page-section-item-rank">
+										<h6>Community Input</h6>
+										<span class="title">Approval:</span> <span>55%, </span><span class="change">+5% since last update</span>
+									</div>
+									<div class="edit-project-page-section-item-comments">
+										<h6>Recent Discussions</h6>
+										<span>On Jan/24/1998:</span><a href="">This is a topic title.</a><span class="comment-count">34 comments</span>
+									</div>
+									<div class="edit-project-page-section-item-discussion">
+										<a href="">view all discussions</a>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div id="target-hardware" class="small-12 large-12 columns edit-project-page-section-item">
+								<h4>Target Hardware <small>Updated: 1/7/1980</small></h4>
+
+								<p>This is the HC that was entered on the Create a Project page.</p>
+							
+								<p class="edit-deliverable-content-button"><a href="">edit deliverable</a></p>
+
+								<form class="edit-deliverable-content">
+									<label>
+										<textarea>This window and the 'update' button will be hidden until the user clicks the 'Edit' button above</textarea>
+									</label>
+									<label>
+										<input type="submit" value="update">
+									</label>
+								</form>
+
+								<div class="analytics">
+									<div class="edit-project-page-section-item-rank">
+										<h6>Community Input</h6>
+										<span class="title">Approval:</span> <span>55%, </span><span class="change">+5% since last update</span>
+									</div>
+									<div class="edit-project-page-section-item-comments">
+										<h6>Recent Discussions</h6>
+										<span>On Jan/24/1998:</span><a href="">This is a topic title.</a><span class="comment-count">34 comments</span>
+									</div>
+									<div class="edit-project-page-section-item-discussion">
+										<a href="">view all discussions</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="small-12 large-1 columns">
+						&nbsp;
+					</div>
+					<!-- PROJECT INFO -->
+					<div class="small-12 large-3 columns edit-project-page-sidebar-section">
+						<div class="row">
+							<div class="small-12 large-12 columns edit-project-page-section-header">
+								<h3 class="">Project Info</h3>
+							</div>
+							<div class="small-12 large-12 columns">
+								<h4>Last Updated:</h4>
+								<p>3 hours ago</p>
+								<h4>Created on:</h4>
+								<p>1/12/1980</p>
+								<h4>Project Owner:</h4>
+								<p>KenFaris</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Contact INFO -->
+					<div class="small-12 large-3 columns edit-profile-page-sidebar-section">
+						<div class="row">
+							<div class="small-12 large-12 columns edit-project-page-section-header">
+								<h3 class="">Contact</h3>
+							</div>
+							<div class="small-12 large-12 columns">
+								<h4>Send Message:</h4>
+								<p><a href="">via Wipperzeit mail</a></p>
+								<h4>Email:</h4>
+								<p><a href="">info@birdgame.com</a></p>
+								<h4>Website:</h4>
+								<p><a href="">birdgame.com</a></p>
+								<h4>GitHub:</h4>
+								<p><a href="">gitusername</a></p>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+			</article>
+		</div>
+	</div>
+
+	<div class="darkest"><!-- ROW BACKGROUND COLOR-->
+		<div class="row">
+			<footer class="large-12 columns">
+
+				<div class="row">
+					<div class="small-12 large-8 columns large-centered">
+						<div class="row">
+							<ul class="small-6 large-6 columns">
+								<li><a href="">Link</a></li>
+								<li><a href="">Link</a></li>
+								<li><a href="">Link</a></li>
+								<li><a href="">Link</a></li>
+							</ul>
+							<ul class="small-6 large-6 columns">
+								<li><a href="">Link</a></li>
+								<li><a href="">Link</a></li>
+								<li><a href="">Link</a></li>
+								<li><a href="">Link</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</footer>
+		</div>
+	</div>
+
+	<div class="darkest"><!-- ROW BACKGROUND COLOR-->
+		<div class="row">
+			<div class="large-12 columns copyright">
+
+				<p>&copy; Wipperzite 2013 - All Rights Reserved - Wipperzeit LLC - 1234 Anyoad, Ann Arbor, MI 48197</p>
+
+			</div>
+		</div>
+	</div>
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>

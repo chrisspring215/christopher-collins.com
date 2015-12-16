@@ -1,0 +1,82 @@
+/* Client Facing Color Styles */
+/* ====== Color Variables ====== */
+/* For Red Backgrounds, Links */
+/* For Footer Background */
+/* For Header text, bolded text */
+/* For body paragraph text */
+/* For link buttons with on colored backgrounds */
+/* For text with color backgrounds text */
+/* line 26, ../scss/client-project-colors.scss */
+body {
+  background: #333333;
+}
+
+/* HEADER COLOR */
+/* line 33, ../scss/client-project-colors.scss */
+.top {
+  background: #ee3c2d;
+  color: white;
+}
+/* line 38, ../scss/client-project-colors.scss */
+.top a {
+  color: white;
+}
+/* line 43, ../scss/client-project-colors.scss */
+.top .project-name {
+  color: #dddddd;
+}
+
+/* line 49, ../scss/client-project-colors.scss */
+.middle {
+  background: #333333;
+}
+/* line 51, ../scss/client-project-colors.scss */
+.middle p {
+  color: white;
+}
+/* line 61, ../scss/client-project-colors.scss */
+.middle .local-nav h2 {
+  color: white;
+}
+/* line 66, ../scss/client-project-colors.scss */
+.middle .local-nav h3 {
+  color: #dddddd;
+}
+/* line 71, ../scss/client-project-colors.scss */
+.middle .local-nav a {
+  color: #ee3c2d;
+}
+/* line 79, ../scss/client-project-colors.scss */
+.middle .project-section h1 {
+  color: white;
+}
+/* line 84, ../scss/client-project-colors.scss */
+.middle .project-section h3 {
+  color: white;
+}
+/* line 89, ../scss/client-project-colors.scss */
+.middle .project-section h4 {
+  color: #dddddd;
+}
+/* line 94, ../scss/client-project-colors.scss */
+.middle .project-section a {
+  color: #ee3c2d;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* All Mobile Sizes (devices and browser) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 115, ../scss/client-project-colors.scss */
+  body {
+    background: #333333;
+  }
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  /* line 129, ../scss/client-project-colors.scss */
+  body {
+    background: #333333;
+  }
+}
