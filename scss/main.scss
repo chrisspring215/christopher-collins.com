@@ -7285,6 +7285,19 @@ h3, h4, p, ul, ol, li, a {
   box-sizing: border-box;
 }
 
+.cv-skills-list {
+  margin-left: 1em;
+  li {
+    list-style-type: disc;
+  }
+}
+
+cite {
+  color: #555;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.1em;
+}
+
 /* line 114, ../scss/main.scss */
 body {
   background: #eee;
